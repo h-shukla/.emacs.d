@@ -1,0 +1,128 @@
+ls
+ls -al
+git clone git@github.com:h-shukla/iNoteBook.git
+clear-scrollback 
+ls -lah
+ls
+cd ../..
+ls
+git status
+git add .
+git commit -m 'refactoring'
+git push
+ls
+cd ../..
+ls
+npm i 
+npm start  
+clear-scrollback 
+ls 
+numbers
+ls 
+ls
+exit
+npm init -y
+ls
+npx create-react-app frontend
+ls
+ls
+git init
+git init
+ls
+ls- a
+ls -a
+cd backend/
+ls
+npm init -y
+npm i express mongoose
+cd ../frontend/
+npx create-react-app .
+ls
+ls -a
+rm -rf .git
+rm -rf .git*
+ls -a
+cd ..
+git status
+git add .
+ls -a
+rm -rf .git
+git status
+git init
+git status
+git add .
+git commit -m "initial commit"
+git log
+clear-scrollback 
+ls
+cd backend/
+ls
+npm i -D nodemon
+npm start
+ls
+npm start
+npm start
+clear-scrollback 
+ls
+ls -la
+ls
+ls -al
+ls
+cd ../
+ls
+npm i axois @material-ui.core @material-ui/lab @material-ui/icons
+npm i axois @material-ui/core @material-ui/lab @material-ui/icons
+npm start
+cd ../..
+ls
+npm start
+ls
+ls
+lite-server 
+ls
+mkdir backend
+npx create-react-app frontend
+ls
+git status
+git add .
+git commit -m "removed frontend clutter"
+git status
+cls
+clear-scrollback 
+ls
+cd ..
+ls
+npm run server
+npm i -D nodemon
+npm run server
+npm i express colors dotenv mongoose
+npm run server
+npm run server
+npm i cors
+clear-scrollback 
+npm run server
+clear-scrollback 
+npm i express-async-handler
+git clone https://github.com/bradtraversy/mern-tutorial.git
+cd mern-tutorial/
+ls
+git status
+git add .
+git commit -m "refactoring and going to learn redux before proceeding further"
+gs
+git status
+clear-scrollback 
+ll
+clear-scrollback 
+ls --al
+ls -al
+clear-scrollback 
+ls -al
+cd /mtp
+cd /tmp
+git clone https://github.com/hasan-py/MERN_Stack_Project_Ecommerce_Hayroo
+cd MERN_Stack_Project_Ecommerce_Hayroo/
+ls
+cd client/
+ls
+npm i

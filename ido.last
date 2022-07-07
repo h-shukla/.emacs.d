@@ -1,0 +1,343 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/himanshu/Public/" . "MERN_Stack_Project_Ecommerce_Hayroo/")
+ ("/home/himanshu/Code/MERN/" . "goal-setter-app/")
+ ("/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/src/" . "store/")
+ ("/home/himanshu/Code/reactjs/redux-shopping-app/" . "Redux-Shopping-Cart-App/")
+ ("/home/himanshu/Code/reactjs/" . "redux-shopping-app/")
+ ("/home/" . "himanshu/")
+ ("/home/himanshu/dev/MERN/goal-setter-app/frontend/src/" . "pages/")
+ ("/tmp/mern-tutorial/frontend/src/features/" . "auth/")
+ ("/tmp/mern-tutorial/frontend/src/" . "pages/")
+ ("/tmp/mern-tutorial/backend/" . "controllers/")
+ ("/tmp/" . "MERN_Stack_Project_Ecommerce_Hayroo/")
+ ("/home/himanshu/dev/MERN/goal-setter-app/" . "backend/")
+ ("/home/himanshu/dev/projects/Comp-Social/" . "backend/")
+ ("/home/himanshu/dev/projects/" . "Comp-Social/")
+ ("/home/himanshu/dev/MERN/goal-setter-app/backend/" . "controllers/")
+ ("/home/himanshu/dev/MERN/" . "goal-setter-app/")
+ ("/home/himanshu/dev/" . "reactjs/")
+ ("/home/himanshu/code/MERN/social-media-app/" . "frontend/")
+ ("/home/himanshu/code/websites/" . "dynamic-image-gallery/")
+ ("/home/himanshu/code/projects/reservo/" . "frontend/")
+ ("/home/himanshu/code/MERN/yt-full-stack-proj/frontend/" . "src/")
+ ("/home/himanshu/code/MERN/yt-full-stack-proj/frontend/src/" . "pages/")
+ ("/home/himanshu/.emacs.d/" . "auto-save-list/")
+ ("/home/himanshu/code/MERN/yt-full-stack-proj/" . "frontend/")
+ ("/home/himanshu/code/MERN/yt-full-stack-proj/backend/" . "controllers/")
+ ("/home/himanshu/code/MERN/" . "social-media-app/")
+ ("/home/himanshu/code/projects/reservo/backend/" . "Routes/")
+ ("/home/hs/code/projects/Comp-Social/backend/" . "routes/")
+ ("/home/hs/code/dsa-java/src/main/" . "java/")
+ ("/home/hs/code/dsa-java/src/" . "main/")
+ ("/home/hs/code/dsa-java/" . "src/")
+ ("/home/hs/code/projects/Comp-Social/frontend/src/" . "components/")
+ ("/home/hs/code/projects/Comp-Social/frontend/" . "src/")
+ ("/home/hs/code/projects/Comp-Social/" . "backend/")
+ ("/home/hs/code/projects/" . "Comp-Social/")
+ ("/home/hs/code/" . "projects/")
+ ("/home/hs/" . "code/")
+ ("/" . "home/")
+ ("/home/himanshushukla/code/projects/Comp-Social/frontend/src/" . "components/")
+ ("/home/himanshushukla/code/projects/Comp-Social/frontend/" . "src/")
+ ("/home/himanshushukla/code/projects/Comp-Social/" . "backend/")
+ ("/home/himanshushukla/code/projects/Comp-Social/backend/" . "models/")
+ ("/home/himanshushukla/code/projects/" . "Startup-App/")
+ ("/home/himanshushukla/code/" . "projects/")
+ ("/home/himanshushukla/" . "code/")
+ ("/home/himanshu/code/projects/Comp-Social/frontend/src/" . "components/")
+ ("/home/himanshu/code/projects/" . "reservo/")
+ ("/home/himanshu/code/" . "MERN/")
+ ("/home/himanshu/Code/Projects/Comp-Social/frontend/" . "src/")
+ ("/home/himanshu/.config/" . "nvim/")
+ ("/home/himanshu/Code/Projects/Comp-Social/" . "frontend/")
+ ("/home/himanshu/Code/go/" . "snitch/")
+ ("/home/himanshu/Code/Go/" . "Learn-Go-With-Tests/")
+ ("/home/himanshu/Code/JavaScript/" . "color-changer-js/")
+ ("/home/himanshu/Code/Projects/Comp-Social/frontend/src/" . "components/")
+ ("/home/himanshu/Code/Projects/" . "Comp-Social/")
+ ("/home/himanshu/Code/" . "MERN/")
+ ("/home/himanshu/Documents/code/reactjs/cwh-course/" . "iNoteBook/")
+ ("/home/himanshu/Documents/code/reactjs/" . "cwh-course/")
+ ("/home/himanshu/Documents/code/" . "reactjs/")
+ ("/home/himanshu/Documents/" . "code/")
+ ("/home/himanshu/" . "Public/")
+ ("c:/Users/Himanshu/AppData/Roaming/" . ".emacs.d/")
+ ("c:/Users/Himanshu/AppData/" . "Roaming/")
+ ("c:/Users/Himanshu/" . "Desktop/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/himanshu/"
+ "/home/himanshu/Public/MERN_Stack_Project_Ecommerce_Hayroo/"
+ "/home/himanshu/Public/MERN_Stack_Project_Ecommerce_Hayroo/client/src/components/shop/auth/"
+ "/tmp/MERN_Stack_Project_Ecommerce_Hayroo/"
+ "/home/himanshu/Code/MERN/Traversy-media-MERN-redux/backend/routes/"
+ "/home/himanshu/Code/MERN/Traversy-media-MERN-redux/backend/"
+ "/home/himanshu/Code/MERN/Traversy-media-MERN-redux/"
+ "/home/himanshu/Code/MERN/"
+ "/home/himanshu/Code/MERN/ecommerce/backend/"
+ "/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/"
+ "/home/himanshu/Code/MERN/goal-setter-app/"
+ "/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/src/"
+ "/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/src/store/"
+ "/home/himanshu/.emacs.d/"
+ "/tmp/"
+ "/home/himanshu/dev/"
+ "/home/himanshu/dev/reactjs/redux-basics/src/features/counter/"
+ "/home/himanshu/dev/reactjs/redux-basics/"
+ "/home/himanshu/dev/reactjs/"
+ "/home/himanshu/dev/MERN/goal-setter-app/"
+ "/home/himanshu/dev/MERN/goal-setter-app/frontend/src/features/auth/"
+ "/home/himanshu/dev/MERN/goal-setter-app/frontend/src/"
+ "/home/himanshu/dev/MERN/goal-setter-app/frontend/src/pages/"
+ "/home/himanshu/dev/MERN/goal-setter-app/frontend/src/components/"
+ "/home/himanshu/dev/MERN/goal-setter-app/frontend/src/app/"
+ "/home/himanshu/dev/MERN/goal-setter-app/frontend/"
+ "/tmp/mern-tutorial/frontend/src/pages/"
+ "/tmp/mern-tutorial/frontend/src/features/auth/"
+ "/tmp/mern-tutorial/frontend/src/app/"
+ "/tmp/mern-tutorial/"
+ "/tmp/mern-tutorial/backend/controllers/"
+ "/tmp/mern-tutorial/backend/config/"
+ "/tmp/mern-tutorial/backend/routes/"
+ "/home/himanshu/dev/MERN/goal-setter-app/backend/models/"
+ "/home/himanshu/dev/MERN/goal-setter-app/backend/"
+ "/home/himanshu/dev/MERN/goal-setter-app/backend/config/"
+ "/home/himanshu/dev/projects/Comp-Social/backend/"
+ "/home/himanshu/dev/MERN/goal-setter-app/backend/middlewares/"
+ "/home/himanshu/dev/MERN/goal-setter-app/backend/controllers/"
+ "/home/himanshu/dev/MERN/goal-setter-app/backend/routes/"
+ "/home/himanshu/code/MERN/social-media-app/frontend/src/"
+ "/home/himanshu/code/MERN/social-media-app/frontend/"
+ "/home/himanshu/code/MERN/social-media-app/"
+ "/home/himanshu/code/MERN/"
+ "/home/himanshu/code/MERN/Instagram-clone/"
+ "/home/himanshu/code/websites/dynamic-image-gallery/"
+ "/home/himanshu/code/projects/reservo/frontend/"
+ "/home/himanshu/code/projects/reservo/backend/"
+ "/home/himanshu/code/projects/reservo/"
+ "/home/himanshu/code/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "fetchApi.js"
+ "goalRoutes.js"
+ ".env"
+ ".gitignore"
+ "server.js"
+ "package.json"
+ "index.js"
+ "App.css"
+ "auth-slice.js"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/himanshu/" (25287 7624 95224 662000) "Desktop/" "../" "Videos/" ".bashrc" ".bash_logout" "Pictures/" ".mongodb/" ".ssh/" "Public/" ".tmux.conf" ".emacs.d/" "Code/" ".npm/" "Documents/" ".gnupg/" ".sudo_as_admin_successful" ".cache/" ".fonts/" "./" "Music/" ".local/" ".bash_history" ".pki/" ".config/" ".gitconfig" "Templates/" "Downloads/" ".profile" "snap/" ".emacs.d.backup/" ".gnome/" ".wget-hsts" ".mozilla/" ".bash_aliases")
+
+ ("/tmp/" (25278 65393 484508 612000) ".X11-unix/" ".ICE-unix/" ".XIM-unix/" ".font-unix/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-systemd-oomd.service-7q81qD/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-systemd-resolved.service-4Fh6Ag/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-low-memory-monitor.service-9xIreY/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-power-profiles-daemon.service-arlAlw/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-rtkit-daemon.service-bGJTeo/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-switcheroo-control.service-7VHT1t/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-systemd-logind.service-hoc1Mm/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-upower.service-X3EFNv/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-chronyd.service-fZDhV7/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-dbus-broker.service-LsbJHg/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-ModemManager.service-9WbbUr/" "mongodb-27017.sock" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-geoclue.service-jWB1O0/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-colord.service-PWSLSN/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-fwupd.service-6Zhy2W/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-bluetooth.service-5JtsXE/" ".vbox-himanshu-ipc/" "tracker-extract-3-files.1000/" "core-js-banners" ".X1024-lock" ".X1025-lock" "ssh-XXXXXXrRlCq9/" ".com.google.Chrome.xZulKb/" "babel-hApdaS/" "../" "./")
+
+ ("/home/himanshu/.emacs.d/" (25278 64959 742786 912000) "config.el" ".last-package-update-day" "snippets/" "smex-items" "places" "network-security.data" "init.el" "ido.last" "eshell/" "elpa/" "config.org" "auto-save-list/" "../" "./")
+
+ ("/home/himanshu/Code/MERN/" (25236 58291 0 0) "Traversy-MERN-redux/" "../" "./")
+
+ ("/home/himanshu/Public/MERN_Stack_Project_Ecommerce_Hayroo/client/src/components/shop/auth/" (25278 63430 248577 289000) "fetchApi.js" "Signup.js" "ProtectedRoute.js" "LoginSignup.js" "Login.js" "CartProtectedRoute.js" "AdminProtectedRoute.js" "../" "./")
+
+ ("/home/himanshu/Public/MERN_Stack_Project_Ecommerce_Hayroo/" (25278 64696 290717 461000) "server/" "client/" "README.md" ".gitignore" ".git/" "../" "./")
+
+ ("/home/himanshu/Public/" (25278 64290 639324 940000) "MERN_Stack_Project_Ecommerce_Hayroo/" "../" "./")
+
+ ("/tmp/MERN_Stack_Project_Ecommerce_Hayroo/" (25278 63430 253577 307000) ".git/" ".gitignore" "README.md" "client/" "server/" "../" "./")
+
+ ("/home/himanshu/Documents/" (25277 61690 93940 636000) "Collegeproject.md" "../" "./")
+
+ ("/home/himanshu/Downloads/" (25278 60144 73797 862000) "ubuntu-16.04.7-desktop-amd64.iso" "Documents.zip" "code.zip" "Pictures.zip" "../" "./")
+
+ ("/home/himanshu/Code/MERN/Traversy-media-MERN-redux/backend/routes/" (25277 46202 24472 870000) "goalRoutes.js" "./" "../")
+
+ ("/home/himanshu/Code/MERN/Traversy-media-MERN-redux/" (25277 45877 442519 413000) "backend/" ".env" "package.json" "node_modules/" ".gitignore" "./" "package-lock.json" "../")
+
+ ("/home/himanshu/Code/MERN/Traversy-media-MERN-redux/backend/" (25277 44807 312195 962000) "server.js" "./" "../")
+
+ ("/home/himanshu/Code/MERN/ecommerce/backend/" (25276 43490 647252 150000) "index.js" "package.json" "node_modules/" "./" "package-lock.json" "../")
+
+ ("/home/himanshu/Code/" (25215 43287 0 0) "MERN/" "c-lang/" "JavaScript/" "c++/" "projects/" "dotnet/" "reactjs/" "android/" "go/" "websites/" "python/" "nodejs/" "./" "java/" "DSA/" "../")
+
+ ("/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/src/store/" (25201 30567 0 0) "index.js" "auth-slice.js" "./" "../")
+
+ ("/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/src/" (25201 30558 0 0) "index.js" "App.test.js" "App.css" "components/" "logo.svg" "serviceWorker.js" "setupTests.js" "App.js" "store/" "./" "index.css" "../")
+
+ ("/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/" (25206 30328 0 0) "package.json" "README.md" "src/" ".gitignore" ".git/" "./" "package-lock.json" "public/" "../")
+
+ ("/home/himanshu/Code/MERN/ecommerce/" (25276 43143 899698 251000) "./" "../")
+
+ ("/home/himanshu/Code/MERN/goal-setter-app/" (25183 9678 0 0) "package-lock.json" "package.json" "Note.md" "frontend/" "backend/" ".gitignore" ".git/" ".env" "../" "./")
+
+ ("/home/himanshu/Code/reactjs/redux-shopping-app/" (25200 10308 0 0) "Redux-Shopping-Cart-App/" "../" "./")
+
+ ("/home/himanshu/Code/reactjs/" (25200 10180 0 0) "traversy-crashcourse/" "todo-hooks-CJ/" "redux-shopping-app/" "react-redux-basics/" "docs-tut/" "cwh-course/" "../" "./")
+
+ ("/home/" (25201 25380 318935 17000) "himanshu/" "../" "./")
+
+ ("/home/himanshu/dev/reactjs/redux-basics/src/features/counter/" (25183 8128 615784 158000) "../" "counterAPI.js" "Counter.js" "./" "Counter.module.css" "counterSlice.js" "counterSlice.spec.js")
+
+ ("/home/himanshu/dev/reactjs/redux-basics/" (25183 8128 639784 79000) "package.json" "../" "node_modules/" ".git/" "./" ".gitignore" "README.md" "src/" "public/" "package-lock.json")
+
+ ("/home/himanshu/dev/reactjs/" (25183 7686 718894 62000) "cwh-course/" "redux-basics/" "../" "todo-hooks-CJ/" "./" "traversy-crashcourse/" "docs-tut/")
+
+ ("/home/himanshu/dev/MERN/goal-setter-app/frontend/src/pages/" (25181 55272 620566 596000) "../" "./" "Login.js" "Dashboard.js" "Register.js")
+
+ ("/home/himanshu/dev/MERN/goal-setter-app/frontend/src/features/auth/" (25181 50450 326805 108000) "../" "./" "authService.js" "authSlice.js")
+
+ ("/home/himanshu/dev/MERN/goal-setter-app/frontend/src/components/" (25181 50304 48249 620000) "Header.js" "../" "./" "Spinner.js")
+
+ ("/home/himanshu/dev/MERN/goal-setter-app/frontend/src/app/" (25179 48034 628304 470000) "../" "./" "store.js")
+
+ ("/home/himanshu/dev/MERN/goal-setter-app/frontend/src/" (25181 50230 428390 769000) "app/" "index.css" "../" "./" "components/" "pages/" "setupTests.js" "features/" "serviceWorker.js" "index.js" "App.js" "App.test.js")
+
+ ("/home/himanshu/dev/MERN/goal-setter-app/frontend/" (25179 48034 632302 387000) "package.json" "../" "node_modules/" "./" ".gitignore" "README.md" "src/" "public/" "package-lock.json")
+
+ ("/home/himanshu/dev/MERN/" (25181 54192 887112 81000) "../" "goal-setter-app/" "./")
+
+ ("/tmp/mern-tutorial/frontend/src/pages/" (25181 52624 278673 522000) "Login.jsx" "../" "Register.jsx" "./" "Dashboard.jsx")
+
+ ("/tmp/mern-tutorial/frontend/src/features/auth/" (25181 52624 278673 522000) "../" "./" "authService.js" "authSlice.js")
+
+ ("/tmp/mern-tutorial/frontend/src/features/" (25181 52624 278673 522000) "../" "./" "auth/" "goals/")
+
+ ("/tmp/mern-tutorial/frontend/src/app/" (25181 52624 274673 5000) "../" "./" "store.js")
+
+ ("/tmp/mern-tutorial/frontend/src/" (25181 52624 278673 522000) "app/" "index.css" "../" "./" "components/" "pages/" "setupTests.js" "features/" "serviceWorker.js" "index.js" "App.js" "App.test.js")
+
+ ("/tmp/mern-tutorial/backend/config/" (25181 52624 258670 941000) "../" "./" "db.js")
+
+ ("/tmp/mern-tutorial/backend/controllers/" (25181 52624 258670 941000) "userController.js" "../" "./" "goalController.js")
+
+ ("/home/himanshu/dev/MERN/goal-setter-app/backend/routes/" (25179 9484 585100 156000) "../" "goalRoutes.js" "./" "userRoutes.js")
+
+ ("/home/himanshu/dev/MERN/goal-setter-app/backend/controllers/" (25179 9629 406617 802000) "userController.js" "../" "./" "goalController.js")
+
+ ("/home/himanshu/dev/MERN/goal-setter-app/backend/middlewares/" (25179 12442 13505 334000) "../" "./" "errorMiddleware.js" "authMiddleware.js")
+
+ ("/home/himanshu/dev/MERN/goal-setter-app/" (25181 49675 268917 220000) "package.json" "../" "node_modules/" ".git/" "./" ".gitignore" "frontend/" ".env" "backend/" "Note.md" "package-lock.json")
+
+ ("/home/himanshu/dev/MERN/goal-setter-app/backend/models/" (25179 9079 511665 254000) "../" "./" "userModel.js" "goalModel.js")
+
+ ("/tmp/mern-tutorial/backend/routes/" (25181 52624 258670 941000) "../" "goalRoutes.js" "./" "userRoutes.js")
+
+ ("/tmp/mern-tutorial/backend/" (25181 52624 258670 941000) "../" "models/" "config/" "./" "middleware/" "server.js" "routes/" "controllers/")
+
+ ("/tmp/mern-tutorial/" (25181 52624 278673 522000) "package.json" "../" "readme.md" ".git/" "./" ".gitignore" "frontend/" "backend/" ".envexample" "package-lock.json")
+
+ ("/tmp/babel-gwtKo3/" (25181 52579 760406 171000) "../" "./")
+
+ ("/home/himanshu/dev/MERN/goal-setter-app/backend/config/" (25178 60590 780127 554000) "../" "./" "db.js")
+
+ ("/home/himanshu/dev/MERN/goal-setter-app/backend/" (25178 60883 5162 915000) "../" "models/" "middlewares/" "config/" "./" "server.js" "routes/" "controllers/")
+
+ ("/home/himanshu/dev/projects/Comp-Social/backend/" (25140 46586 0 0) "package.json" "../" "models/" "./" "db.js" "routes/" "index.js" "package-lock.json")
+
+ ("/home/himanshu/dev/projects/Comp-Social/" (25112 40840 0 0) "../" ".git/" "./" "LICENSE" ".gitignore" "README.md" "frontend/" "backend/" "project-todo.md")
+
+ ("/home/himanshu/dev/projects/" (25171 14083 34444 278000) "Comp-Social/" "../" "./" "Portfolio/" "ImageScraper/" "reservo/" "mern-todo/")
+
+ ("/home/himanshu/dev/" (25154 43638 0 0) "java/" "reactjs/" "../" "websites/" "./" "DSA/" "c++/" "android/" "nodejs/" "MERN/" "dotnet/" "projects/" "django/" "JavaScript/" "c-lang/" "go/" "python/")
+
+ ("/home/himanshu/code/MERN/social-media-app/frontend/src/" (25177 21791 921721 121000) "index.css" "../" "./" "index.js" "App.js")
+
+ ("/home/himanshu/code/MERN/social-media-app/frontend/" (25176 36206 168556 28000) "package.json" "../" "node_modules/" "./" "README.md" "src/" "public/" "package-lock.json")
+
+ ("/home/himanshu/code/MERN/social-media-app/backend/" (25176 36091 435500 519000) "package.json" "../" "node_modules/" "./" "index.js" "package-lock.json")
+
+ ("/home/himanshu/code/MERN/social-media-app/" (25176 36301 661176 817000) "../" ".git/" "./" ".gitignore" "frontend/" "backend/")
+
+ ("/home/himanshu/code/MERN/" (25176 35966 438184 94000) "../" "./" "social-media-app/")
+
+ ("/home/himanshu/code/MERN/Instagram-clone/" (25176 33096 364429 803000) "../" ".git/" "./" ".gitignore" "frontend/" "backend/")
+
+ ("/home/himanshu/code/websites/dynamic-image-gallery/" (25176 1316 989476 335000) "img/" "script.js" "../" "./" "index.html")
+
+ ("/home/himanshu/code/websites/" (25176 1941 931642 390000) "../" "dynamic-image-gallery/" "blur-template/" "grid-traversy-tut/" "./" "prt-portfolio/" "Flipkart-clone/" "basic-web/" "blog-site/" "influencer-website/" "material-ui-course/" "landing-pages/" "builder-landing-page/" "for-portfolio-with-hiren/" "node-em/")
+
+ ("/home/himanshu/code/projects/reservo/frontend/" (25171 14573 126051 247000) "package.json" "../" "node_modules/" "./" "README.md" "src/" "public/" "package-lock.json")
+
+ ("/home/himanshu/code/projects/reservo/backend/" (25171 14393 639932 746000) "package.json" "../" "node_modules/" "./" "index.js" "package-lock.json")
+
+ ("/home/himanshu/code/projects/reservo/" (25171 14566 753774 434000) "../" ".git/" "./" ".gitignore" "frontend/" "backend/")
+
+ ("/home/himanshu/code/projects/" (25171 14083 34444 278000) "Comp-Social/" "../" "./" "Portfolio/" "ImageScraper/" "reservo/" "mern-todo/")
+
+ ("/home/himanshu/code/MERN/yt-full-stack-proj/frontend/src/components/" (25168 40792 830825 843000) "../" "Bootcamp.js" "./" "Navbar.js")
+
+ ("/home/himanshu/code/MERN/yt-full-stack-proj/frontend/" (25164 30509 936696 698000) "package.json" "../" "node_modules/" "./" "README.md" "src/" "public/" "package-lock.json")
+
+ ("/home/himanshu/code/MERN/yt-full-stack-proj/frontend/src/" (25165 56794 118230 459000) "index.css" "../" "./" "components/" "pages/" "index.js" "App.js")
+
+ ("/home/himanshu/code/MERN/yt-full-stack-proj/frontend/src/pages/" (25165 56603 809589 204000) "BootcampPage.js" "../" "./")
+
+ ("/home/himanshu/.emacs.d/auto-save-list/" (25165 54208 141004 772000) "../" "./" ".saves-514385-pop-os~")
+
+ ("/home/himanshu/.config/nvim/" (25164 5567 2538 506000) "undodir/" "../" "./" "plugged/" "init.vim")
+
+ ("/home/himanshu/code/projects/Comp-Social/" (25112 40840 0 0) "../" ".git/" "./" "LICENSE" ".gitignore" "README.md" "frontend/" "backend/" "project-todo.md")
+
+ ("/home/himanshu/code/projects/mern-todo/" (25140 46646 0 0) "package.json" "../" ".git/" "./" ".gitignore" "README.md" "src/" "backend/" "public/" "package-lock.json")
+
+ ("/home/himanshu/code/MERN/yt-full-stack-proj/backend/config/" (25154 44626 0 0) "../" "./" "db.js")
+
+ ("/home/himanshu/code/MERN/yt-full-stack-proj/backend/controllers/" (25156 27838 0 0) "../" "./" "bootcampControllers.js")
+
+ ("/home/himanshu/code/MERN/yt-full-stack-proj/backend/routes/" (25156 27490 0 0) "../" "./" "bootcampRoutes.js")
+
+ ("/home/himanshu/code/MERN/yt-full-stack-proj/backend/" (25164 30510 224702 39000) "package.json" "../" "node_modules/" "models/" "utils/" "config/" "./" ".env" "middleware/" "server.js" "routes/" "package-lock.json" "controllers/")
+
+ ("/home/himanshu/code/MERN/yt-full-stack-proj/" (25154 44336 0 0) "../" ".git/" "./" ".gitignore" "frontend/" "backend/")
+
+ ("/home/himanshu/code/" (25154 43638 0 0) "java/" "reactjs/" "../" "websites/" "./" "DSA/" "c++/" "android/" "nodejs/" "MERN/" "dotnet/" "projects/" "django/" "JavaScript/" "c-lang/" "go/" "python/")
+
+ ("/home/himanshu/code/projects/reservo/backend/Models/" (25149 63134 0 0) "Resturant.js" "./" "User.js" "../")
+
+ ("/home/himanshu/code/projects/reservo/backend/Routes/" (25149 64168 0 0) "user.js" "./" "resturant.js" "../")
+
+ ("/home/himanshu/code/projects/Comp-Social/frontend/src/" (25109 13404 0 0) "App.css" "index.css" "../" "./" "index.js" "App.js" "components/")
+
+ ("/home/himanshu/code/projects/Comp-Social/frontend/src/components/" (25109 13404 0 0) "Search.js" "Home.js" "../" "ErrorPage.js" "./" "Login.js" "SearchRes.js" "Navbar.js" "Signup.js" "About.js")
+
+ ("/home/hs/code/projects/Comp-Social/backend/routes/" (25109 13404 0 0) "./" "api.js" "../")
+
+ ("/home/hs/code/projects/Comp-Social/backend/" (25109 17349 0 0) "routes/" "./" "node_modules/" "package.json" "db.js" "index.js" "models/" "../" "package-lock.json")
+
+ ("/home/hs/" (25114 39708 145539 753000) ".gnupg/" ".config/" ".zcompdump" ".emacs.d/" ".mozilla/" "./" ".gphoto/" ".fonts/" ".bash_history" ".pki/" ".ssh/" "Templates/" ".gitconfig" "VirtualBox VMs/" "Documents/" "Music/" "Desktop/" ".zshrc" ".gnome/" "code/" ".java/" ".zcompdump-ThinkPad-E14-5.8" ".shell.pre-oh-my-zsh" ".vimrc" "Downloads/" "Videos/" ".bashrc" ".oh-my-zsh/" ".zsh_history" "../" "Public/" ".bash_logout" ".bash_aliases" ".profile" ".android/" "snap/" ".local/" ".cache/" "go/" ".wget-hsts" ".viminfo" ".tmux.conf" "Pictures/" ".sudo_as_admin_successful" ".npm/" ".vim/")
+
+ ("/home/hs/code/dsa-java/src/main/java/" (25098 6121 0 0) "./" "AverageOfNums.java" "BinarySearch.java" "../" "LinearSearch.java" "Q1.java" "com/")
+
+ ("/home/hs/code/dsa-java/src/main/" (25094 45402 0 0) "./" "java/" "../")
+
+ ("/home/hs/code/dsa-java/src/" (25094 46519 0 0) "./" "test/" "main/" "../")
+
+ ("/home/hs/code/dsa-java/" (25094 48273 0 0) "pom.xml" "./" "target/" ".git/" "src/" "../" "README.md")
+
+ ("/home/hs/code/projects/Comp-Social/frontend/src/components/" (25109 13404 0 0) "ErrorPage.js" "./" "About.js" "Navbar.js" "Search.js" "SearchRes.js" "Login.js" "Signup.js" "Home.js" "../")
+
+ ("/home/hs/code/projects/Comp-Social/frontend/src/" (25109 13404 0 0) "./" "components/" "App.js" "index.js" "index.css" "../" "App.css")
+
+ ("/home/hs/code/projects/Comp-Social/frontend/" (25109 17357 0 0) "./" "node_modules/" "package.json" "public/" ".gitignore" "src/" "../" "package-lock.json")
+
+ ("/home/hs/code/projects/Comp-Social/" (25112 40841 676661 650000) "./" "LICENSE" ".git/" "backend/" ".gitignore" "frontend/" "../" "README.md" "project-todo.md")
+
+ ("/home/hs/code/projects/" (25109 60750 0 0) "ImageScraper/" "./" "portfolio-website/" "Startup-App/" "../" "Comp-Social/")
+
+ ("/home/hs/code/" (25099 26519 0 0) "nodejs/" "./" "python/" "java/" "websites/" "dotnet/" "JavaScript/" "dsa-java/" "../" "android/" "reactjs/" "go/" "projects/" "c-lang/")
+
+ ("/home/himanshushukla/.emacs.d/" (25110 5317 718085 455000) "places" "config.org" "network-security.data" ".last-package-update-day" ".python-environments/" "elpa/" "./" "smex-items" "ido.last" "snippets/" "auto-save-list/" "eshell/" "config.el" "init.el" "../")
+
+ ("/home/himanshushukla/" (25110 3771 965961 638000) ".vscode/" ".gnome/" ".vim/" ".bash_aliases" ".local/" ".ssh/" "Videos/" "Documents/" ".sudo_as_admin_successful" "code/" ".cache/" ".gitconfig" ".netbeans/" ".gnupg/" ".bash_logout" "VirtualBox VMs/" ".mozilla/" "Downloads/" "./" "Music/" ".profile" ".mongodb/" ".config/" "Pictures/" ".viminfo" "Templates/" "Public/" ".pki/" ".fonts/" ".var/" ".emacs.d/" ".android/" ".m2/" ".vimrc" ".bashrc" "Desktop/" ".npm/" ".wget-hsts" ".java/" ".bash_history" "NetBeansProjects/" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

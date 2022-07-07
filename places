@@ -1,0 +1,12 @@
+;;; -*- coding: utf-8 -*-
+(("/home/himanshu/.emacs.d/ido.last" . 23657)
+ ("/home/himanshu/"
+  (dired-filename . "/home/himanshu/.bashrc"))
+ ("/home/himanshu/.bash_aliases" . 267)
+ ("/home/himanshu/.emacs.d/"
+  (dired-filename . "/home/himanshu/.emacs.d/smex-items"))
+ ("/home/himanshu/.emacs.d/init.el" . 822)
+ ("/home/himanshu/.config/"
+  (dired-filename . "/home/himanshu/.config/nvim"))
+ ("/tmp/"
+  (dired-filename . "/tmp/mongodb-27017.sock")))
