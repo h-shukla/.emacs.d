@@ -5,4 +5,4 @@ Initially it started by watching the [[https://www.youtube.com/watch?v=d6iY_1aMz
 time of using it I think I have made enough transformations to call it my own
 now.
 * Can you use it?
-Ofcourse you can. Just make sure you have Emacs version 26+
+Of course you can! Just make sure you have Emacs version 26+
