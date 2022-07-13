@@ -1,8 +1,8 @@
 
 ;; ----- smex-history -----
 (
- grep-find
  eshell
+ grep-find
  ansi-term
  package-list-packages
  shell-script-mode
@@ -14,7 +14,7 @@
 (
  (dired . 5)
  (load-theme . 18)
- (eshell . 31)
+ (eshell . 32)
  (company-mode . 3)
  (ansi-term . 7)
  (org-present . 1)

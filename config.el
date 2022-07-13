@@ -5,12 +5,13 @@
 	auto-package-update-interval 7)
   (auto-package-update-maybe))
 
-(set-frame-font "Liberation mono 13")
+(set-frame-font "Source Code Pro 13")
 
 (use-package doom-themes
   :ensure t)
 
-(load-theme 'doom-oceanic-next t)
+;; (load-theme 'doom-oceanic-next t)
+;; (set-background-color "honeydew")
 
 (menu-bar-mode 0)
 (tool-bar-mode 0)

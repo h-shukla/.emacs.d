@@ -15,12 +15,14 @@ To edit a file as sudo use sudo::file-name
 * Minor settings
 ** Font and Theme
    #+BEGIN_SRC emacs-lisp
-     (set-frame-font "Liberation mono 13")
+     (set-frame-font "Dejavu Sans Mono 14")
 
      (use-package doom-themes
        :ensure t)
 
-     (load-theme 'doom-oceanic-next t)
+     ;; (load-theme 'doom-oceanic-next t)
+     (set-background-color "honeydew")
+     (set-face-attribute 'region nil :background "#abcabc")
    #+END_SRC
 
 ** Startup tweaks
