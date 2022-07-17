@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ package-autoremove
+ package-refresh-contents
+ eval-buffer
  eshell
  grep-find
  ansi-term
  package-list-packages
- shell-script-mode
- jedi:install-server
- load-theme
 )
 
 ;; ----- smex-data -----
@@ -28,9 +28,9 @@
  (replace-string . 3)
  (whitespace-cleanup . 1)
  (jedi:install-server . 6)
- (package-autoremove . 6)
- (package-refresh-contents . 1)
- (eval-buffer . 4)
+ (package-autoremove . 7)
+ (package-refresh-contents . 2)
+ (eval-buffer . 5)
  (list-packages . 1)
  (package-list-packages . 2)
  (savehist-mode . 2)

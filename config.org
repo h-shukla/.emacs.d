@@ -15,14 +15,14 @@ To edit a file as sudo use sudo::file-name
 * Minor settings
 ** Font and Theme
    #+BEGIN_SRC emacs-lisp
-     (set-frame-font "Dejavu Sans Mono 14")
-
      (use-package doom-themes
        :ensure t)
+     (use-package zenburn-theme
+       :ensure t)
 
-     ;; (load-theme 'doom-oceanic-next t)
-     (set-background-color "honeydew")
-     (set-face-attribute 'region nil :background "#abcabc")
+     (set-frame-font "Monospace 12")
+     (load-theme 'zenburn t)
+
    #+END_SRC
 
 ** Startup tweaks
@@ -90,7 +90,7 @@ To edit a file as sudo use sudo::file-name
    #+END_SRC
 ** mouse tweaks
    #+BEGIN_SRC emacs-lisp   
-     (setq mouse-wheel-scroll-amount '(2 ((shift) . 2))) ;; one line at a time
+     (setq mouse-wheel-scroll-amount '(3 ((shift) . 3))) ;; one line at a time
      (setq mouse-wheel-progressive-speed nil)            ;; don't accelerate scrolling
      (setq-default smooth-scroll-margin 0)
      (setq scroll-step 1

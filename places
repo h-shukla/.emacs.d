@@ -1,26 +1,37 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/himanshu/.emacs.d/ido.last" . 23207)
- ("/home/himanshu/.emacs.d/config.org" . 673)
+(("/home/himanshu/.emacs.d/ido.last" . 22997)
+ ("/home/himanshu/.emacs.d/elpa/doom-themes-20220622.2317/doom-themes-autoloads.el" . 23263)
+ ("/home/himanshu/.emacs.d/init.el" . 360)
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/video_time_stamp.txt" . 53)
  ("/home/himanshu/Code/MERN/MERN-ecommerce/"
   (dired-filename . "/home/himanshu/Code/MERN/MERN-ecommerce/backend"))
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/app.js" . 377)
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/middlewares/"
+  (dired-filename . "/home/himanshu/Code/MERN/MERN-ecommerce/backend/middlewares/.."))
  ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/"
   (dired-filename . "/home/himanshu/Code/MERN/MERN-ecommerce/backend/controllers"))
  ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/controllers/"
   (dired-filename . "/home/himanshu/Code/MERN/MERN-ecommerce/backend/controllers/productController.js"))
- ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/controllers/productController.js" . 1715)
- ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/routes/productRoute.js" . 426)
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/controllers/productController.js" . 387)
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/models/productModel.js" . 624)
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/package.json" . 227)
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/config/config.env" . 10)
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/routes/productRoute.js" . 491)
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/utils/"
+  (dired-filename . "/home/himanshu/Code/MERN/MERN-ecommerce/backend/utils/errorHander.js"))
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/middlewares/error.js" . 282)
+ ("/home/himanshu/.emacs.d/"
+  (dired-filename . "/home/himanshu/.emacs.d/config.org"))
+ ("/home/himanshu/"
+  (dired-filename . "/home/himanshu/Documents"))
+ ("/home/himanshu/.tmux.conf" . 95)
  ("/home/himanshu/Code/MERN/"
   (dired-filename . "/home/himanshu/Code/MERN/MERN-ecommerce"))
  ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/routes/"
   (dired-filename . "/home/himanshu/Code/MERN/MERN-ecommerce/backend/routes/.."))
  ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/models/"
   (dired-filename . "/home/himanshu/Code/MERN/MERN-ecommerce/backend/models/productModel.js"))
- ("/home/himanshu/"
-  (dired-filename . "/home/himanshu/.bashrc"))
  ("/home/himanshu/.bash_aliases" . 267)
- ("/home/himanshu/.emacs.d/"
-  (dired-filename . "/home/himanshu/.emacs.d/smex-items"))
- ("/home/himanshu/.emacs.d/init.el" . 822)
  ("/home/himanshu/.config/"
   (dired-filename . "/home/himanshu/.config/nvim"))
  ("/tmp/"

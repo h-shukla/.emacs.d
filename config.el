@@ -5,13 +5,13 @@
 	auto-package-update-interval 7)
   (auto-package-update-maybe))
 
-(set-frame-font "Source Code Pro 13")
-
 (use-package doom-themes
   :ensure t)
+(use-package zenburn-theme
+  :ensure t)
 
-;; (load-theme 'doom-oceanic-next t)
-;; (set-background-color "honeydew")
+(set-frame-font "Iosevka 15")
+(load-theme 'zenburn t)
 
 (menu-bar-mode 0)
 (tool-bar-mode 0)
@@ -46,7 +46,7 @@
 
 (setq byte-compile-warnings '(not obsolete))
 
-(setq mouse-wheel-scroll-amount '(2 ((shift) . 2))) ;; one line at a time
+(setq mouse-wheel-scroll-amount '(3 ((shift) . 3))) ;; one line at a time
 (setq mouse-wheel-progressive-speed nil)            ;; don't accelerate scrolling
 (setq-default smooth-scroll-margin 0)
 (setq scroll-step 1

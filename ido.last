@@ -2,7 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/" . "routes/")
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/" . "backend/")
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/" . "middlewares/")
  ("/home/himanshu/Public/" . "MERN_Stack_Project_Ecommerce_Hayroo/")
  ("/home/himanshu/Code/MERN/" . "MERN-ecommerce/")
  ("/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/src/" . "store/")
@@ -72,11 +73,17 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/himanshu/Code/MERN/MERN-ecommerce/backend/routes/"
- "/home/himanshu/Code/MERN/MERN-ecommerce/backend/"
  "/home/himanshu/Code/MERN/MERN-ecommerce/"
- "/home/himanshu/Code/MERN/"
+ "/home/himanshu/Code/MERN/MERN-ecommerce/backend/middlewares/"
+ "/home/himanshu/Code/MERN/MERN-ecommerce/backend/controllers/"
+ "/home/himanshu/.emacs.d/"
+ "/home/himanshu/Code/MERN/MERN-ecommerce/backend/utils/"
+ "/home/himanshu/Code/MERN/MERN-ecommerce/backend/config/"
+ "/home/himanshu/Code/MERN/MERN-ecommerce/backend/"
+ "/home/himanshu/Code/MERN/MERN-ecommerce/backend/models/"
+ "/home/himanshu/Code/MERN/MERN-ecommerce/backend/routes/"
  "/home/himanshu/"
+ "/home/himanshu/Code/MERN/"
  "/home/himanshu/Public/MERN_Stack_Project_Ecommerce_Hayroo/"
  "/home/himanshu/Public/MERN_Stack_Project_Ecommerce_Hayroo/client/src/components/shop/auth/"
  "/tmp/MERN_Stack_Project_Ecommerce_Hayroo/"
@@ -88,7 +95,6 @@
  "/home/himanshu/Code/MERN/goal-setter-app/"
  "/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/src/"
  "/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/src/store/"
- "/home/himanshu/.emacs.d/"
  "/tmp/"
  "/home/himanshu/dev/"
  "/home/himanshu/dev/reactjs/redux-basics/src/features/counter/"
@@ -117,45 +123,55 @@
  "/home/himanshu/dev/MERN/goal-setter-app/backend/routes/"
  "/home/himanshu/code/MERN/social-media-app/frontend/src/"
  "/home/himanshu/code/MERN/social-media-app/frontend/"
- "/home/himanshu/code/MERN/social-media-app/"
- "/home/himanshu/code/MERN/"
- "/home/himanshu/code/MERN/Instagram-clone/"
- "/home/himanshu/code/websites/dynamic-image-gallery/"
- "/home/himanshu/code/projects/reservo/frontend/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "productRoute.js"
- "fetchApi.js"
- "goalRoutes.js"
- ".env"
- ".gitignore"
- "server.js"
+ "video_time_stamp.txt"
+ "catchAsyncErrors.js"
+ "productController.js"
+ "init.el"
+ "error.js"
+ "errorhandler.js"
+ "config.env"
  "package.json"
- "index.js"
- "App.css"
+ "app.js"
+ "productModel.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/routes/" (25293 46715 668109 609000) "productRoute.js" "../" "./")
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/middlewares/" (25299 54888 171605 54000) "./" "../" "catchAsyncErrors.js" "error.js")
 
- ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/controllers/" (25293 46715 668109 609000) "productController.js" "../" "./")
+ ("/home/himanshu/.emacs.d/" (25299 54715 246565 945000) "./" "config.org" "init.el" "network-security.data" "../" "places" "ido.last" "auto-save-list/" ".git/" "elpa/" ".last-package-update-day" "eshell/" "config.el" "README.org" "smex-items" "snippets/")
 
- ("/home/himanshu/Code/MERN/MERN-ecommerce/" (25293 46715 669109 632000) "video_time_stamp.txt" "package.json" "package-lock.json" "backend/" "README.md" ".gitignore" ".git/" "../" "./")
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/utils/" (25299 54320 93179 516000) "./" "../" "errorHander.js")
 
- ("/home/himanshu/Code/MERN/" (25293 46712 988048 519000) "MERN-ecommerce/" "Traversy-MERN-redux/" "../" "./")
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/config/" (25298 55133 518112 265000) "./" "../" "config.env" "db.js")
 
- ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/" (25293 46715 668109 609000) "server.js" "routes/" "models/" "controllers/" "config/" "app.js" "../" "./")
+ ("/tmp/" (25299 53584 187213 653000) "./" ".font-unix/" "../" "ssh-P2ZSs5BfOOPV/" "systemd-private-313fd9e2264145d99295d84855087fb3-ModemManager.service-r85Qti/" "systemd-private-313fd9e2264145d99295d84855087fb3-upower.service-WBEtXf/" "systemd-private-313fd9e2264145d99295d84855087fb3-systemd-timesyncd.service-JVOYoh/" "systemd-private-313fd9e2264145d99295d84855087fb3-systemd-logind.service-zEOKnj/" "vscode-typescript1000/" "babel-45Fb1y/" ".X11-unix/" ".Test-unix/" "systemd-private-313fd9e2264145d99295d84855087fb3-systemd-resolved.service-wJPQeh/" ".X0-lock" ".ICE-unix/" ".XIM-unix/" "ssh-AFXDDU1jJjVP/" "python-languageserver-cancellation/" "mintUpdate/" "config-err-cb3xzs" "tmux-1000/" ".com.google.Chrome.n64zhf/" "systemd-private-313fd9e2264145d99295d84855087fb3-colord.service-PcXWhi/" ".com.google.Chrome.0jdn4a" ".com.google.Chrome.1RcSbb" "systemd-private-313fd9e2264145d99295d84855087fb3-geoclue.service-RSyzsg/" "mongodb-27017.sock")
 
- ("/home/himanshu/Code/" (25215 43286 0 0) "websites/" "reactjs/" "python/" "projects/" "nodejs/" "MERN/" "JavaScript/" "java/" "go/" "DSA/" "dotnet/" "c-lang/" "c++/" "android/" "../" "./")
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/models/" (25298 55133 518112 265000) "./" "../" "productModel.js")
 
- ("/home/himanshu/" (25293 46470 132774 648000) "Code/" ".emacs.d/" ".ssh/" ".tmux.conf" ".gitconfig" ".bash_aliases" ".bashrc" ".gnome/" ".pki/" ".fonts/" ".wget-hsts" ".bash_history" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".mozilla/" "../" "./")
+ ("/home/himanshu/" (25299 52698 991475 612000) ".vimrc" "./" "Videos/" ".gnupg/" "../" ".ssh/" "Code/" "Pictures/" "Postman/" ".Xauthority" ".bashrc" ".bash_logout" ".xsession-errors" ".cache/" ".dmrc" "Templates/" ".mozilla/" ".linuxmint/" "scripts/" ".var/" ".gitconfig" ".bash_history" ".sudo_as_admin_successful" ".local/" "Downloads/" ".gtkrc-2.0" "Music/" ".npm/" ".config/" ".themes/" "Public/" ".cinnamon/" ".Xresources" ".xsession-errors.old" ".gnome/" "Documents/" ".gtkrc-xfce" ".profile" "Desktop/" ".emacs.d/" ".vscode/" ".pki/" ".bash_aliases" ".tmux.conf" ".fonts/" ".wget-hsts")
 
- ("/tmp/" (25278 65393 484508 612000) ".X11-unix/" ".ICE-unix/" ".XIM-unix/" ".font-unix/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-systemd-oomd.service-7q81qD/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-systemd-resolved.service-4Fh6Ag/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-low-memory-monitor.service-9xIreY/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-power-profiles-daemon.service-arlAlw/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-rtkit-daemon.service-bGJTeo/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-switcheroo-control.service-7VHT1t/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-systemd-logind.service-hoc1Mm/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-upower.service-X3EFNv/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-chronyd.service-fZDhV7/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-dbus-broker.service-LsbJHg/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-ModemManager.service-9WbbUr/" "mongodb-27017.sock" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-geoclue.service-jWB1O0/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-colord.service-PWSLSN/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-fwupd.service-6Zhy2W/" "systemd-private-bb3f673e90de4c688eaf8dde279de24d-bluetooth.service-5JtsXE/" ".vbox-himanshu-ipc/" "tracker-extract-3-files.1000/" "core-js-banners" ".X1024-lock" ".X1025-lock" "ssh-XXXXXXrRlCq9/" ".com.google.Chrome.xZulKb/" "babel-hApdaS/" "../" "./")
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/controllers/" (25298 55133 518112 265000) "./" "../" "productController.js")
 
- ("/home/himanshu/.emacs.d/" (25278 64959 742786 912000) "config.el" ".last-package-update-day" "snippets/" "smex-items" "places" "network-security.data" "init.el" "ido.last" "eshell/" "elpa/" "config.org" "auto-save-list/" "../" "./")
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/" (25298 55761 74988 715000) "./" "../" "routes/" "config/" "controllers/" "app.js" "utils/" "middlewares/" "server.js" "models/")
+
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/backend/routes/" (25298 55133 518112 265000) "./" "../" "productRoute.js")
+
+ ("/home/himanshu/Code/MERN/MERN-ecommerce/" (25298 55182 121657 20000) "./" "video_time_stamp.txt" "../" "README.md" ".gitignore" "backend/" "package.json" ".git/" "package-lock.json" "node_modules/")
+
+ ("/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/src/store/" (25298 12612 0 0) "./" "auth-slice.js" "../" "index.js")
+
+ ("/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/src/" (25298 12610 0 0) "./" "../" "index.css" "App.test.js" "setupTests.js" "index.js" "components/" "logo.svg" "serviceWorker.js" "App.js" "App.css" "store/")
+
+ ("/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/" (25298 12610 0 0) "./" "src/" "../" "README.md" ".gitignore" "package.json" ".git/" "public/" "package-lock.json")
+
+ ("/home/himanshu/Code/MERN/" (25298 12702 0 0) "./" "../" "MERN-ecommerce/" "Traversy-MERN-redux/")
+
+ ("/home/himanshu/Code/" (25298 54061 808004 613000) "./" "go/" "../" "c++/" "c-lang/" "websites/" "python/" "nodejs/" "reactjs/" "JavaScript/" "android/" "dotnet/" "projects/" "java/" "DSA/" "MERN/")
 
  ("/home/himanshu/Public/MERN_Stack_Project_Ecommerce_Hayroo/client/src/components/shop/auth/" (25278 63430 248577 289000) "fetchApi.js" "Signup.js" "ProtectedRoute.js" "LoginSignup.js" "Login.js" "CartProtectedRoute.js" "AdminProtectedRoute.js" "../" "./")
 
@@ -176,12 +192,6 @@
  ("/home/himanshu/Code/MERN/Traversy-media-MERN-redux/backend/" (25277 44807 312195 962000) "server.js" "./" "../")
 
  ("/home/himanshu/Code/MERN/ecommerce/backend/" (25276 43490 647252 150000) "index.js" "package.json" "node_modules/" "./" "package-lock.json" "../")
-
- ("/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/src/store/" (25201 30567 0 0) "index.js" "auth-slice.js" "./" "../")
-
- ("/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/src/" (25201 30558 0 0) "index.js" "App.test.js" "App.css" "components/" "logo.svg" "serviceWorker.js" "setupTests.js" "App.js" "store/" "./" "index.css" "../")
-
- ("/home/himanshu/Code/reactjs/redux-shopping-app/Redux-Shopping-Cart-App/" (25206 30328 0 0) "package.json" "README.md" "src/" ".gitignore" ".git/" "./" "package-lock.json" "public/" "../")
 
  ("/home/himanshu/Code/MERN/ecommerce/" (25276 43143 899698 251000) "./" "../")
 
@@ -330,14 +340,6 @@
  ("/home/hs/code/dsa-java/src/" (25094 46519 0 0) "./" "test/" "main/" "../")
 
  ("/home/hs/code/dsa-java/" (25094 48273 0 0) "pom.xml" "./" "target/" ".git/" "src/" "../" "README.md")
-
- ("/home/hs/code/projects/Comp-Social/frontend/src/components/" (25109 13404 0 0) "ErrorPage.js" "./" "About.js" "Navbar.js" "Search.js" "SearchRes.js" "Login.js" "Signup.js" "Home.js" "../")
-
- ("/home/hs/code/projects/Comp-Social/frontend/src/" (25109 13404 0 0) "./" "components/" "App.js" "index.js" "index.css" "../" "App.css")
-
- ("/home/hs/code/projects/Comp-Social/frontend/" (25109 17357 0 0) "./" "node_modules/" "package.json" "public/" ".gitignore" "src/" "../" "package-lock.json")
-
- ("/home/hs/code/projects/Comp-Social/" (25112 40841 676661 650000) "./" "LICENSE" ".git/" "backend/" ".gitignore" "frontend/" "../" "README.md" "project-todo.md")
 )
 
 ;; ----- ido-unc-hosts-cache -----
