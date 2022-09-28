@@ -1,0 +1,18 @@
+
+;; ----- smex-history -----
+(
+ package-autoremove
+ eshell
+ jedi:install-server
+ cd
+ 5x5
+ arp
+ dbx
+)
+
+;; ----- smex-data -----
+(
+ (eshell . 6)
+ (jedi:install-server . 2)
+ (package-autoremove . 1)
+)

@@ -1,0 +1,10 @@
+;;; -*- coding: utf-8 -*-
+(("/home/himanshu/.emacs.d/"
+  (dired-filename . "/home/himanshu/.emacs.d/.git"))
+ ("/home/himanshu/.emacs.d/ido.last" . 7418)
+ ("/home/himanshu/Documents/college project/s-company/"
+  (dired-filename . "/home/himanshu/Documents/college project/s-company/frontend"))
+ ("/home/himanshu/Documents/college project/s-company/frontend/"
+  (dired-filename . "/home/himanshu/Documents/college project/s-company/frontend/src"))
+ ("/home/himanshu/Documents/college project/s-company/frontend/src/"
+  (dired-filename . "/home/himanshu/Documents/college project/s-company/frontend/src/AppRouter.js")))

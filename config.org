@@ -1,0 +1,393 @@
+Use C-c ' to edit the source block quickly
+To refresh go to init.el and C-x C-e the org include line
+To begin src block type <s then TAB
+To edit a file as sudo use sudo::file-name
+
+* Auto update packages every 7 days
+  #+BEGIN_SRC emacs-lisp
+  (use-package auto-package-update
+    :ensure t
+    :config
+    (setq auto-package-update-delete-old-versions t
+	  auto-package-update-interval 7)
+    (auto-package-update-maybe))
+  #+END_SRC
+* Minor settings
+** Font and Theme
+   #+BEGIN_SRC emacs-lisp
+     (set-frame-font "Ubuntu Mono 16")
+     (load-theme 'wombat t)
+   #+END_SRC
+
+** Startup tweaks
+   #+BEGIN_SRC emacs-lisp
+  (menu-bar-mode 0)
+  (tool-bar-mode 0)
+  (scroll-bar-mode 0)
+  (setq inhibit-startup-screen t)
+  (save-place-mode 1)
+  (setq create-lockfiles nil)
+   #+END_SRC
+
+** Disable backups
+   #+BEGIN_SRC emacs-lisp
+   (setq make-backup-files nil)
+   (setq auto-save-default nil)
+   #+END_SRC
+
+** electric
+   #+BEGIN_SRC emacs-lisp
+   (electric-pair-mode 1)
+   #+END_SRC
+
+** Stop bells and better scrolling
+   #+BEGIN_SRC emacs-lisp
+   (setq scroll-conservatively 100)
+   (setq ring-bell-function 'ignore)
+   #+END_SRC
+
+** y instead of yes
+   #+BEGIN_SRC emacs-lisp
+   (defalias 'yes-or-no-p 'y-or-n-p)
+   #+END_SRC
+
+** Tweaks for GUI version
+   #+BEGIN_SRC emacs-lisp
+     ;; (when window-system (set-frame-size (selected-frame) 80 40))
+     (when window-system (global-prettify-symbols-mode t))
+     (add-to-list 'default-frame-alist '(fullscreen . maximized))
+     (if (eq system-type 'windows-nt)
+	 (cd "c:/Users/Himanshu/"))
+
+   #+END_SRC
+
+** Navigation tweaks
+   Show column numbers
+   #+BEGIN_SRC emacs-lisp
+   (column-number-mode 1)
+   (delete-selection-mode 1)
+   #+END_SRC
+
+   showing parenthesis highlighting
+   #+BEGIN_SRC emacs-lisp
+   (show-paren-mode 1)
+   #+END_SRC
+** clock
+   shows time and system load average in status bar
+   #+BEGIN_SRC emacs-lisp
+   (setq display-time-24hr-format t)
+   (display-time-mode 1)
+   #+END_SRC
+** Removing cl deprecation
+   #+BEGIN_SRC emacs-lisp
+   (setq byte-compile-warnings '(not obsolete))
+   #+END_SRC
+** mouse tweaks
+   #+BEGIN_SRC emacs-lisp   
+     (setq mouse-wheel-scroll-amount '(3 ((shift) . 3))) ;; one line at a time
+     (setq mouse-wheel-progressive-speed nil)            ;; don't accelerate scrolling
+     (setq-default smooth-scroll-margin 0)
+     (setq scroll-step 1
+	   scroll-margin 1
+	   scroll-conservatively 100000)
+
+   #+END_SRC
+** Transparency
+   #+BEGIN_SRC emacs-lisp
+     ;; Set transparency on startup
+     ;; (set-frame-parameter (selected-frame) 'alpha '(95 . 50))
+     ;; (add-to-list 'default-frame-alist '(alpha . (95 . 50)))
+
+     ;; Toggle transparency with C-c t
+     (defun toggle-transparency ()
+       (interactive)
+       (let ((alpha (frame-parameter nil 'alpha)))
+	 (set-frame-parameter
+	  nil 'alpha
+	  (if (eql (cond ((numberp alpha) alpha)
+			 ((numberp (cdr alpha)) (cdr alpha))
+			 ;; Also handle undocumented (<active> <inactive>) form.
+			 ((numberp (cadr alpha)) (cadr alpha)))
+		   100)
+	      '(95 . 50) '(100 . 100)))))
+     (global-set-key (kbd "C-c t") 'toggle-transparency)
+   #+END_SRC
+* Org
+** basic config
+   Loads the edit buffer in the current window
+   #+BEGIN_SRC emacs-lisp
+   (setq org-src-window-setup 'current-window)
+   (add-hook 'org-mode-hook (lambda() (display-line-numbers-mode -1)))
+   #+END_SRC
+** Beautiful UTF bullets in org mode
+   #+BEGIN_SRC emacs-lisp
+     (use-package org-bullets
+       :ensure t
+       :config
+       (add-hook 'org-mode-hook (lambda() (org-bullets-mode 1))))
+   #+END_SRC
+** Org present
+   #+BEGIN_SRC emacs-lisp
+     (use-package org-present
+       :ensure t
+       :config
+       (add-to-list 'load-path "~/path/to/org-present")
+       (autoload 'org-present "org-present" nil t)
+       (add-hook 'org-present-mode-hook
+		 (lambda ()
+		   (org-present-big)
+		   (org-display-inline-images)))
+       (add-hook 'org-present-mode-quit-hook
+		 (lambda ()
+		   (org-present-small)
+		   (org-remove-inline-images))))
+   #+END_SRC
+* which-key
+  #+BEGIN_SRC emacs-lisp
+    (use-package which-key
+      :ensure t
+      :init
+      (which-key-mode))
+  #+END_SRC
+
+* hungry-delete
+  #+BEGIN_SRC emacs-lisp
+  (use-package hungry-delete
+    :ensure t
+    :config (global-hungry-delete-mode))
+  #+END_SRC
+* IDO
+** enable ido mode
+   #+BEGIN_SRC emacs-lisp
+   (setq ido-enable-flex-matching nil)
+   (setq ido-create-new-buffer 'always)
+   (setq ido-everywhere t)
+   (ido-mode 1)
+   #+END_SRC
+
+** ido-vertical
+   #+BEGIN_SRC emacs-lisp
+     (use-package ido-vertical-mode
+       :ensure t
+       :init
+       (ido-vertical-mode 1))
+     (setq ido-vertical-define-keys 'C-n-and-C-p-only)
+   #+END_SRC
+
+** SMEX
+   #+BEGIN_SRC emacs-lisp
+     (use-package smex
+       :ensure t
+       :init(smex-initialize)
+       :bind
+       ("M-x" . smex))
+   #+END_SRC
+** switch buffer
+   #+BEGIN_SRC emacs-lisp
+   (global-set-key (kbd "C-x b") 'ido-switch-buffer)
+   #+END_SRC
+* buffers
+** ibuffer setup and auto execute without asking y-or-n
+   #+BEGIN_SRC emacs-lisp
+   (global-set-key (kbd "C-x C-b") 'ibuffer)
+   (setq ibuffer-expert t)
+   #+END_SRC
+* avy
+  Quick jumping to characters
+  #+BEGIN_SRC emacs-lisp
+  (use-package avy
+    :ensure t
+    :bind
+    ("M-s" . avy-goto-char))
+  #+END_SRC
+
+* config edit/reload
+** edit
+   #+BEGIN_SRC emacs-lisp
+     (defun config-visit ()
+       (interactive)
+       (find-file "~/.emacs.d/config.org"))
+     (global-set-key (kbd "C-c e") 'config-visit)
+   #+END_SRC
+** reload
+   #+BEGIN_SRC emacs-lisp
+     (defun config-reload()
+       (interactive)
+       (org-babel-load-file (expand-file-name "~/.emacs.d/config.org")))
+     (global-set-key (kbd "C-c r") 'config-reload)
+   #+END_SRC
+* rainbow
+** adding rainbow mode
+   #+BEGIN_SRC emacs-lisp
+     (use-package rainbow-mode
+       :ensure t
+       :init (add-hook 'prog-mode-hook 'rainbow-mode))
+   #+END_SRC
+
+** colorful parenthesis
+   #+BEGIN_SRC emacs-lisp
+     (use-package rainbow-delimiters
+       :ensure t
+       :init
+       (rainbow-delimiters-mode 1))
+   #+END_SRC
+* auto completion
+** company-mode
+   Cycle between completions with M-n and M-p
+   #+BEGIN_SRC emacs-lisp
+     (use-package company
+       :ensure t
+       :config
+       (global-company-mode 1)
+       (setq company-idle-delay 0)
+       (setq company-minimum-prefix-length 2))
+   #+END_SRC
+
+** company backends
+   #+BEGIN_SRC emacs-lisp
+     (use-package company-web
+       :ensure t
+       :config
+       (add-to-list 'company-backends 'company-web-mode)
+       (add-hook 'web-mode-hook 'company-web-mode))
+
+     (use-package company-jedi
+       :ensure t
+       :config
+       (add-to-list 'company-backends 'company-jedi))
+
+     (defun my/python-mode-hook ()
+       (add-hook 'python-mode-hook 'my/python-mode-hook))
+
+     ;; run pyenv-activate at the base of python project
+     (use-package pyvenv
+       :ensure t
+       :hook ((python-mode . pyvenv-mode)))
+
+   #+END_SRC
+* modeline
+  #+BEGIN_SRC emacs-lisp
+  (use-package diminish
+    :ensure t
+    :init
+    (diminish 'hungry-delete-mode)
+    (diminish 'which-key-mode)
+    (diminish 'rainbow-mode))
+  #+END_SRC
+
+* Line numbers
+  #+BEGIN_SRC emacs-lisp
+    (global-display-line-numbers-mode 1)
+    (add-hook 'dired-mode-hook (lambda() (display-line-numbers-mode 1)))
+  #+END_SRC
+* Terminal
+** Setting default shell to bash
+   #+BEGIN_SRC emacs-lisp
+     (defvar my-term-shell "/bin/bash")
+     (defadvice ansi-term (before force-bash)
+       (interactive (list my-term-shell)))
+     (ad-activate 'ansi-term)
+   #+END_SRC
+
+** Setting keybinding to launch terminal
+   #+BEGIN_SRC emacs-lisp
+     (global-set-key (kbd "<s-return>") 'ansi-term)
+   #+END_SRC
+
+** Disable line numbers and company in terminal
+   #+BEGIN_SRC emacs-lisp
+     (add-hook 'term-mode-hook (lambda() (company-mode -1)))
+     (add-hook 'term-mode-hook (lambda() (display-line-numbers-mode -1)))
+     (add-hook 'eshell-mode-hook (lambda() (display-line-numbers-mode -1)))
+     (add-hook 'eshell-mode-hook (lambda() (company-mode -1)))
+   #+END_SRC
+
+* pretty symbols
+** pretty mode
+   #+BEGIN_SRC emacs-lisp
+     (when window-system
+       (use-package pretty-mode
+	 :ensure t
+	 :config
+	 (global-pretty-mode -1)))
+   #+END_SRC
+
+* webdev
+** HTML and CSS
+   #+BEGIN_SRC emacs-lisp
+  (use-package web-mode
+    :ensure t)
+   #+END_SRC
+
+** JavaScript mode
+   #+BEGIN_SRC emacs-lisp
+  (use-package js2-mode
+    :ensure t
+    :config
+    (add-to-list 'auto-mode-alist (cons (rx ".js" eos) 'js2-mode)))
+   #+END_SRC
+
+** json and jsx
+   #+BEGIN_SRC emacs-lisp  
+  (use-package json-mode
+    :ensure t)
+
+  (use-package rjsx-mode
+    :ensure t
+    :mode "\\.js\\'")
+
+   #+END_SRC
+* Yasnippet
+  #+BEGIN_SRC emacs-lisp
+    (use-package yasnippet
+      :ensure t
+      :config 
+      (yas-reload-all))
+
+    (use-package yasnippet-snippets
+      :ensure t)
+  #+END_SRC
+* markdown-mode
+** Adding markdown mode
+   #+BEGIN_SRC emacs-lisp
+  (use-package markdown-mode
+    :ensure t
+    :commands (markdown-mode gfm-mode)
+    :mode (("README\\.md\\'" . gfm-mode)
+	   ("\\.md\\'" . markdown-mode)
+	   ("\\.markdown\\'" . markdown-mode))
+    :init (setq markdown-command "multimarkdown"))
+   #+END_SRC
+
+** textwdith in markdown mode
+   #+BEGIN_SRC emacs-lisp
+  (defun my-limiting-hook()
+    (auto-fill-mode t)
+    (set-fill-column 80))
+  (add-hook 'markdown-mode-hook 'my-limiting-hook)
+  (add-hook 'org-mode-hook 'my-limiting-hook)
+   #+END_SRC
+
+* Emmet
+  #+BEGIN_SRC emacs-lisp
+  (use-package emmet-mode
+    :ensure t
+    :config
+    (add-hook 'sgml-mode-hook 'emmet-mode)
+    (add-hook 'css-mode-hook 'emmet-mode)
+    (add-hook 'rjsx-mode-hook 'emmet-mode))
+
+  #+END_SRC
+
+* Modes for more Languages
+  #+BEGIN_SRC emacs-lisp
+  (use-package go-mode
+    :ensure t)
+
+  (use-package company-go
+    :ensure t)
+
+  (use-package haskell-mode
+    :ensure t)
+
+  #+END_SRC

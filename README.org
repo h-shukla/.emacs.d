@@ -1,0 +1,11 @@
+* What it is?
+  My personal Emacs Configuration
+* How did it came to be?
+  Initially it started by watching the [[https://www.youtube.com/watch?v=d6iY_1aMzeg&list=PLX2044Ew-UVVv31a0-Qn3dA6Sd_-NyA1n][Uncle Dave's Emacs videos]]. But after some
+  time of using it I think I have made enough transformations to call it my own
+  now.
+* Can you use it?
+  Of course you can! Just make sure you have Emacs version 26+
+* How to use it?
+  Clone this repository and place it in home directory as *.emacs.d* then open
+  up emacs and the changes should be visible
