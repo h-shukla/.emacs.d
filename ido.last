@@ -34,6 +34,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ ".gitignore"
  "P1Q3.py"
  "P1Q1.py"
  "P1Q2.py"
@@ -43,7 +44,7 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/himanshu/.emacs.d/" (25395 59819 826785 597000) "./" "smex-items" ".git/" "elpa/" "config.el" "network-security.data" "config.org" "init.el" "places" ".last-package-update-day" "snippets/" "README.org" "../" "ido.last" "eshell/")
+ ("/home/himanshu/.emacs.d/" (25395 60070 910595 45000) "./" "smex-items" "elpa/" "config.el" "network-security.data" "config.org" "init.el" "places" ".last-package-update-day" "snippets/" "README.org" "../" "ido.last")
 
  ("/home/himanshu/Documents/college project/s-company/" (25394 64312 132560 475000) "./" ".git/" "frontend/" "package-lock.json" ".gitignore" "node_modules/" "README.md" "package.json" "../" "LICENSE" "backend/")
 

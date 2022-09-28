@@ -1,9 +1,9 @@
 
 ;; ----- smex-history -----
 (
+ woman
  package-autoremove
  eshell
- jedi:install-server
  cd
  5x5
  arp
@@ -15,4 +15,5 @@
  (eshell . 6)
  (jedi:install-server . 2)
  (package-autoremove . 1)
+ (woman . 1)
 )

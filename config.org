@@ -16,7 +16,7 @@ To edit a file as sudo use sudo::file-name
 ** Font and Theme
    #+BEGIN_SRC emacs-lisp
      (set-frame-font "Ubuntu Mono 16")
-     (load-theme 'wombat t)
+     (load-theme 'deeper-blue t)
    #+END_SRC
 
 ** Startup tweaks

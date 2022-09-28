@@ -1,0 +1,5 @@
+cd .emacs.d/
+gs
+git status
+git diff
+clear
