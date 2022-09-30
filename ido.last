@@ -2,6 +2,9 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/Users/himanshu/Documents/college project/s-company/frontend/src/" . "styles/")
+ ("c:/Users/himanshu/Documents/college project/s-company/frontend/" . "src/")
+ ("c:/Users/himanshu/Documents/college project/s-company/" . "frontend/")
  ("/home/himanshu/Documents/college project/" . "s-company/")
  ("/home/himanshu/Documents/" . "college project/")
  ("/home/himanshu/" . "Documents/")
@@ -9,12 +12,17 @@
  ("c:/Users/Himanshu/Documents/college practicals/sem5-practicals/" . "INS/")
  ("c:/Users/Himanshu/Documents/college practicals/" . "sem5-practicals/")
  ("c:/Users/Himanshu/Documents/college project/" . "s-company/")
- ("c:/Users/Himanshu/Documents/" . "college practicals/")
+ ("c:/Users/Himanshu/Documents/" . "college project/")
  ("c:/Users/Himanshu/" . "Documents/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/Himanshu/Documents/college project/"
+ "c:/Users/Himanshu/Documents/college project/s-company/"
+ "c:/Users/Himanshu/"
+ "c:/Users/himanshu/Documents/college project/s-company/frontend/src/components/"
+ "c:/Users/himanshu/Documents/college project/s-company/frontend/src/styles/"
  "/home/himanshu/.emacs.d/"
  "/home/himanshu/Documents/college project/s-company/"
  "c:/Users/himanshu/AppData/Roaming/.emacs.d/"
@@ -25,25 +33,41 @@
  "c:/Users/himanshu/Documents/college project/s-company/backend/models/"
  "c:/Users/himanshu/Documents/college project/s-company/backend/middlewares/"
  "c:/Users/himanshu/Documents/college project/s-company/backend/controllers/"
- "c:/Users/himanshu/Documents/college project/s-company/frontend/src/styles/"
- "c:/Users/himanshu/Documents/college project/s-company/frontend/src/components/"
  "c:/Users/himanshu/Documents/college project/s-company/frontend/src/"
- "c:/Users/Himanshu/Documents/college project/s-company/"
- "c:/Users/Himanshu/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- ".gitignore"
- "P1Q3.py"
- "P1Q1.py"
- "P1Q2.py"
- "caeser_cipher_v1.py"
- "test.js"
+ "documentation.txt"
+ "CreateProduct.js"
+ "Contact.js"
+ "About.js"
+ "AdminPage.js"
+ "Profile.js"
+ "Register.js"
+ "Login.js"
+ "Products.js"
+ "AdminPage.css"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/Himanshu/Documents/college project/" (25397 24924 0 0) "~$oject Synopsis.docx" "s-company-old/" "s-company/" "Project Synopsis.docx" "Project Report Week 2.docx" "Project Report Week 1.docx" "Documents provided by mentor/" "documentation.txt" "Collegeproject.md" "../" "./")
+
+ ("c:/Users/himanshu/Documents/college project/s-company/frontend/src/styles/" (25396 48689 0 0) "Product.css" "Navbar.css" "Login.css" "Home.css" "Footer.css" "Contact.css" "AdminPage.css" "About.css" "../" "./")
+
+ ("c:/Users/himanshu/Documents/college project/s-company/frontend/src/components/" (25396 52557 0 0) "Register.js" "Profile.js" "Products.js" "Orders.js" "Navbar.js" "ManageProducts.js" "Login.js" "Home.js" "Footer.js" "EditProfile.js" "CreateProduct.js" "Contact.js" "Cart.js" "AdminPage.js" "About.js" "../" "./")
+
+ ("c:/Users/himanshu/Documents/college project/s-company/frontend/" (25396 48207 0 0) "src/" "public/" "package.json" "package-lock.json" "node_modules/" "../" "./")
+
+ ("c:/Users/himanshu/Documents/college project/s-company/" (25396 48017 0 0) "README.md" "package.json" "package-lock.json" "node_modules/" "LICENSE" "frontend/" "backend/" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/Himanshu/Documents/college project/s-company/" (25396 48017 0 0) "README.md" "package.json" "package-lock.json" "node_modules/" "LICENSE" "frontend/" "backend/" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/Himanshu/Documents/" (25396 47582 0 0) "sapan/" "resume.docx" "random/" "notes/" "My Videos/" "My Pictures/" "My Music/" "important/" "dsa questions and solutions/" "docs-ty/" "docs-sy/" "docs-fy/" "desktop.ini" "college results/" "college project/" "college practicals/" "books/" "BeginBodyweight_CaliUnity.pdf" "../" "./")
+
+ ("c:/Users/Himanshu/" (25396 52800 0 0) "Videos/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Postman/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Code/" "Application Data/" "AppData/" "3D Objects/" ".vscode/" ".vimrc" ".viminfo" ".tmux.conf" ".ssh/" ".profile" ".minttyrc" ".lesshst" ".gitconfig" ".bash_history" ".bash_aliases" ".bashrc" "../" "./")
+
  ("/home/himanshu/.emacs.d/" (25395 60070 910595 45000) "./" "smex-items" "elpa/" "config.el" "network-security.data" "config.org" "init.el" "places" ".last-package-update-day" "snippets/" "README.org" "../" "ido.last")
 
  ("/home/himanshu/Documents/college project/s-company/" (25394 64312 132560 475000) "./" ".git/" "frontend/" "package-lock.json" ".gitignore" "node_modules/" "README.md" "package.json" "../" "LICENSE" "backend/")
@@ -66,8 +90,6 @@
 
  ("c:/Users/Himanshu/Documents/college practicals/" (25359 36336 0 0) "sem5-practicals/" "sem4-practicals/" "sem3-practicals/" "sem2-practicals/" "../" "./")
 
- ("c:/Users/Himanshu/" (25394 38007 0 0) "Videos/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Postman/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Code/" "Application Data/" "AppData/" "3D Objects/" ".vimrc" ".viminfo" ".tmux.conf" ".ssh/" ".profile" ".minttyrc" ".gitconfig" ".bash_history" ".bash_aliases" ".bashrc" "../" "./")
-
  ("c:/Users/himanshu/Documents/college project/s-company/backend/utils/" (25392 32473 0 0) "jwtToken.js" "errorHandler.js" "apiFeatures.js" "../" "./")
 
  ("c:/Users/himanshu/Documents/college project/s-company/backend/routes/" (25392 32473 0 0) "userRoutes.js" "productRoutes.js" "orderRoutes.js" "../" "./")
@@ -78,17 +100,7 @@
 
  ("c:/Users/himanshu/Documents/college project/s-company/backend/controllers/" (25392 32473 0 0) "userController.js" "productController.js" "orderController.js" "../" "./")
 
- ("c:/Users/himanshu/Documents/college project/s-company/frontend/src/styles/" (25392 32473 0 0) "Product.css" "Navbar.css" "Login.css" "Home.css" "Footer.css" "Contact.css" "About.css" "../" "./")
-
- ("c:/Users/himanshu/Documents/college project/s-company/frontend/src/components/" (25393 20612 0 0) "Register.js" "Profile.js" "Products.js" "Navbar.js" "Login.js" "Home.js" "Footer.js" "EditProfile.js" "Contact.js" "Cart.js" "AdminPage.js" "About.js" "../" "./")
-
  ("c:/Users/himanshu/Documents/college project/s-company/frontend/src/" (25392 32473 0 0) "styles/" "index.js" "img/" "components/" "AppRouter.js" "App.js" "App.css" "../" "./")
-
- ("c:/Users/Himanshu/Documents/college project/s-company/" (25393 24262 0 0) "README.md" "package.json" "package-lock.json" "LICENSE" "frontend/" "backend/" ".gitignore" ".git/" "../" "./")
-
- ("c:/Users/Himanshu/Documents/college project/" (25392 32215 0 0) "s-company-old/" "s-company/" "Project Synopsis.docx" "Project Report Week 2.docx" "Project Report Week 1.docx" "Documents provided by mentor/" "Collegeproject.md" "../" "./")
-
- ("c:/Users/Himanshu/Documents/" (25394 789 0 0) "sapan/" "resume.docx" "random/" "notes/" "My Videos/" "My Pictures/" "My Music/" "important/" "dsa questions and solutions/" "docs-ty/" "docs-sy/" "docs-fy/" "desktop.ini" "college results/" "college project/" "college practicals/" "books/" "BeginBodyweight_CaliUnity.pdf" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

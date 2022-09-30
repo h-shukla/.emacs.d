@@ -5,8 +5,8 @@
 	auto-package-update-interval 7)
   (auto-package-update-maybe))
 
-(set-frame-font "Ubuntu Mono 16")
-(load-theme 'wombat t)
+(set-frame-font "Cascadia Code 11")
+(load-theme 'deeper-blue t)
 
 (menu-bar-mode 0)
 (tool-bar-mode 0)

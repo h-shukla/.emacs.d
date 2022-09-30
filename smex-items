@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ global-linum-mode
  woman
  package-autoremove
  eshell
  cd
  5x5
  arp
- dbx
 )
 
 ;; ----- smex-data -----
@@ -16,4 +16,5 @@
  (jedi:install-server . 2)
  (package-autoremove . 1)
  (woman . 1)
+ (global-linum-mode . 2)
 )
