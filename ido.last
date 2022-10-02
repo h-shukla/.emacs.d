@@ -2,12 +2,20 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/himanshu/Code/reactjs/test/" . "public/")
+ ("/home/himanshu/Code/reactjs/" . "test/")
+ ("/home/himanshu/Code/" . "reactjs/")
+ ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/" . "Practical_02/")
+ ("/home/himanshu/Documents/college practicals/sem5-practicals/" . "INS/")
+ ("/home/himanshu/Documents/college practicals/" . "sem5-practicals/")
+ ("/home/himanshu/Documents/college project/s-company/frontend/" . "src/")
+ ("/home/himanshu/Documents/college project/s-company/" . "frontend/")
  ("c:/Users/himanshu/Documents/college project/s-company/frontend/src/" . "styles/")
  ("c:/Users/himanshu/Documents/college project/s-company/frontend/" . "src/")
  ("c:/Users/himanshu/Documents/college project/s-company/" . "frontend/")
  ("/home/himanshu/Documents/college project/" . "s-company/")
  ("/home/himanshu/Documents/" . "college project/")
- ("/home/himanshu/" . "Documents/")
+ ("/home/himanshu/" . "Code/")
  ("c:/Users/Himanshu/Documents/college practicals/sem5-practicals/INS/" . "Practical_01/")
  ("c:/Users/Himanshu/Documents/college practicals/sem5-practicals/" . "INS/")
  ("c:/Users/Himanshu/Documents/college practicals/" . "sem5-practicals/")
@@ -18,13 +26,25 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/himanshu/Code/reactjs/test/public/"
+ "/home/himanshu/Code/reactjs/test/"
+ "/home/himanshu/Documents/college project/s-company/"
+ "/home/himanshu/"
+ "/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_08/"
+ "/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_05/"
+ "/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_03/"
+ "/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_02/"
+ "/tmp/"
+ "/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_01/"
+ "/home/himanshu/.emacs.d/"
+ "/home/himanshu/Documents/college project/s-company/backend/routes/"
+ "/home/himanshu/Documents/college project/s-company/frontend/src/components/"
+ "/home/himanshu/Documents/college project/s-company/frontend/src/"
  "c:/Users/Himanshu/Documents/college project/"
  "c:/Users/Himanshu/Documents/college project/s-company/"
  "c:/Users/Himanshu/"
  "c:/Users/himanshu/Documents/college project/s-company/frontend/src/components/"
  "c:/Users/himanshu/Documents/college project/s-company/frontend/src/styles/"
- "/home/himanshu/.emacs.d/"
- "/home/himanshu/Documents/college project/s-company/"
  "c:/Users/himanshu/AppData/Roaming/.emacs.d/"
  "c:/Users/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_01/"
  "c:/Users/Himanshu/Documents/college practicals/sem5-practicals/INS/Practical_01/"
@@ -38,20 +58,65 @@
 
 ;; ----- ido-work-file-list -----
 (
- "documentation.txt"
- "CreateProduct.js"
- "Contact.js"
- "About.js"
- "AdminPage.js"
- "Profile.js"
- "Register.js"
- "Login.js"
- "Products.js"
- "AdminPage.css"
+ "index.html"
+ "test.py"
+ "RSA.py"
+ "simple_columnar.py"
+ "railfence_cipher.py"
+ "vernam_cipher.py"
+ "playfaircipher.py"
+ "P1Q1.py"
+ "P1Q3.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/himanshu/Code/reactjs/test/public/" (25399 15971 114805 253000) "robots.txt" "manifest.json" "logo512.png" "logo192.png" "index.html" "favicon.ico" "../" "./")
+
+ ("/home/himanshu/Code/reactjs/test/src/" (25401 14281 269495 769000) "index.js" "index.css" "App.js" "../" "./")
+
+ ("/home/himanshu/Code/reactjs/test/" (25399 15971 153805 238000) ".git/" ".gitignore" "src/" "public/" "README.md" "package-lock.json" "node_modules/" "package.json" "../" "./")
+
+ ("/home/himanshu/Code/reactjs/" (25399 15832 113857 45000) "test/" "traversy-crashcourse/" "todo-hooks-CJ/" "redux-shopping-app/" "react-redux-basics/" "docs-tut/" "cwh-course/" "../" "./")
+
+ ("/home/himanshu/Code/" (25307 21018 0 0) "websites/" "reactjs/" "python/" "projects/" "nodejs/" "MERN/" "JavaScript/" "java/" "go/" "DSA/" "dotnet/" "c-lang/" "c++/" "android/" "analysis/" "../" "./")
+
+ ("/home/himanshu/" (25401 14070 734058 638000) ".viminfo" ".anydesk/" ".var/" ".vscode/" ".mongodb/" ".gnome/" ".lesshst" ".emacs.d/" "scripts/" ".ssh/" ".vim/" ".npm/" ".bashrc" ".vimrc" ".tmux.conf" ".gitconfig" ".bash_aliases" "Code/" ".pki/" ".bash_history" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".mozilla/" "../" "./")
+
+ ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_08/" (25400 8606 694890 14000) "sha.py" "../" "./")
+
+ ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_05/" (25400 6293 531022 578000) "../" "./")
+
+ ("/tmp/" (25400 6064 566800 84000) ".X11-unix/" ".ICE-unix/" ".XIM-unix/" ".font-unix/" "systemd-private-5d6c0c631fec4aca93e4b037bdcc064a-systemd-oomd.service-7JfkLT/" "systemd-private-5d6c0c631fec4aca93e4b037bdcc064a-systemd-resolved.service-MVeY0L/" "systemd-private-5d6c0c631fec4aca93e4b037bdcc064a-bluetooth.service-8Rxdfr/" "systemd-private-5d6c0c631fec4aca93e4b037bdcc064a-low-memory-monitor.service-MI6psT/" "systemd-private-5d6c0c631fec4aca93e4b037bdcc064a-power-profiles-daemon.service-wLO0iV/" "systemd-private-5d6c0c631fec4aca93e4b037bdcc064a-rtkit-daemon.service-GWWeUC/" "systemd-private-5d6c0c631fec4aca93e4b037bdcc064a-switcheroo-control.service-T9gOIv/" "systemd-private-5d6c0c631fec4aca93e4b037bdcc064a-systemd-logind.service-zlKVGY/" "systemd-private-5d6c0c631fec4aca93e4b037bdcc064a-upower.service-3eNnDg/" "systemd-private-5d6c0c631fec4aca93e4b037bdcc064a-chronyd.service-zQmm83/" "systemd-private-5d6c0c631fec4aca93e4b037bdcc064a-dbus-broker.service-ChJvw8/" "systemd-private-5d6c0c631fec4aca93e4b037bdcc064a-ModemManager.service-ugp6ff/" "mongodb-27017.sock" "systemd-private-5d6c0c631fec4aca93e4b037bdcc064a-geoclue.service-0WPokH/" "systemd-private-5d6c0c631fec4aca93e4b037bdcc064a-colord.service-3OrcZO/" "systemd-private-5d6c0c631fec4aca93e4b037bdcc064a-fwupd.service-8fYWG3/" "tracker-extract-3-files.1000/" "vscode-typescript1000/" "python-languageserver-cancellation/" "pyright-3687-0GkL8IiAsVub/" ".X1024-lock" ".X1025-lock" ".com.google.Chrome.H5c8St/" "babel-W6zBwM/" ".com.google.Chrome.zGy1zv" "evince-10687/" "test.py" "../" "./")
+
+ ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_03/" (25400 6243 260973 724000) "simple_columnar.py" "railfence_cipher.py" "../" "./")
+
+ ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/" (25400 6227 40957 962000) "Practical_03/" "Practical_10/" "Practical_08/" "Practical_07/" "Practical_06/" "Practical_05/" "Practical_02/" "Practical_01/" "../" "./")
+
+ ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_02/" (25400 4040 996453 841000) "vernam_cipher.py" "playfaircipher.py" "../" "./")
+
+ ("/home/himanshu/.emacs.d/" (25400 1072 260053 175000) "config.el" ".python-environments/" "auto-save-list/" "init.el" "snippets/" "eln-cache/" "elpa/" "smex-items" "places" "network-security.data" "ido.last" "eshell/" "config.org" "README.org" ".last-package-update-day" ".gitignore" ".git/" "../" "./")
+
+ ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_01/" (25400 2195 392926 339000) "P1Q3.py" "P1Q2.py" "P1Q1.py" "../" "./")
+
+ ("/home/himanshu/Documents/college project/s-company/backend/routes/" (25392 32472 0 0) "userRoutes.js" "productRoutes.js" "orderRoutes.js" "../" "./")
+
+ ("/home/himanshu/Documents/college project/s-company/frontend/src/components/" (25399 18165 250507 134000) "UpdateProduct.js" "Register.js" "Profile.js" "Products.js" "Orders.js" "Navbar.js" "Login.js" "Home.js" "Footer.js" "EditProfile.js" "CreateProduct.js" "Contact.js" "Cart.js" "AdminPage.js" "About.js" "../" "./")
+
+ ("/home/himanshu/Documents/college practicals/sem5-practicals/" (25352 61334 0 0) "INS/" "GP/" "AI/" "../" "./")
+
+ ("/home/himanshu/Documents/college practicals/" (25398 57442 0 0) "sem5-practicals/" "sem4-practicals/" "sem3-practicals/" "sem2-practicals/" "../" "./")
+
+ ("/home/himanshu/Documents/college project/s-company/frontend/src/" (25399 18154 253471 567000) "index.js" "AppRouter.js" "App.js" "App.css" "styles/" "img/" "components/" "../" "./")
+
+ ("/home/himanshu/Documents/college project/s-company/frontend/" (25399 18140 429426 856000) "package-lock.json" "package.json" "node_modules/" "src/" "public/" "../" "./")
+
+ ("/home/himanshu/Documents/college project/s-company/" (25399 18049 748133 568000) "README.md" "package-lock.json" "package.json" "LICENSE" "node_modules/" "frontend/" "backend/" ".gitignore" ".git/" "../" "./")
+
+ ("/home/himanshu/Documents/college project/" (25397 42500 0 0) "s-company/" "Project Synopsis.docx" "Project Report Week 2.docx" "Project Report Week 1.docx" "Documents provided by mentor/" "documentation.txt" "Collegeproject.md" "../" "./")
+
+ ("/home/himanshu/Documents/" (25399 15736 561892 687000) "sapan/" "resume.docx" "random/" "notes/" "My Videos/" "My Pictures/" "My Music/" "important/" "dsa questions and solutions/" "docs-ty/" "docs-sy/" "docs-fy/" "desktop.ini" "college results/" "college project/" "college practicals/" "books/" "BeginBodyweight_CaliUnity.pdf" "../" "./")
+
  ("c:/Users/Himanshu/Documents/college project/" (25397 24924 0 0) "~$oject Synopsis.docx" "s-company-old/" "s-company/" "Project Synopsis.docx" "Project Report Week 2.docx" "Project Report Week 1.docx" "Documents provided by mentor/" "documentation.txt" "Collegeproject.md" "../" "./")
 
  ("c:/Users/himanshu/Documents/college project/s-company/frontend/src/styles/" (25396 48689 0 0) "Product.css" "Navbar.css" "Login.css" "Home.css" "Footer.css" "Contact.css" "AdminPage.css" "About.css" "../" "./")
@@ -67,16 +132,6 @@
  ("c:/Users/Himanshu/Documents/" (25396 47582 0 0) "sapan/" "resume.docx" "random/" "notes/" "My Videos/" "My Pictures/" "My Music/" "important/" "dsa questions and solutions/" "docs-ty/" "docs-sy/" "docs-fy/" "desktop.ini" "college results/" "college project/" "college practicals/" "books/" "BeginBodyweight_CaliUnity.pdf" "../" "./")
 
  ("c:/Users/Himanshu/" (25396 52800 0 0) "Videos/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Postman/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Code/" "Application Data/" "AppData/" "3D Objects/" ".vscode/" ".vimrc" ".viminfo" ".tmux.conf" ".ssh/" ".profile" ".minttyrc" ".lesshst" ".gitconfig" ".bash_history" ".bash_aliases" ".bashrc" "../" "./")
-
- ("/home/himanshu/.emacs.d/" (25395 60070 910595 45000) "./" "smex-items" "elpa/" "config.el" "network-security.data" "config.org" "init.el" "places" ".last-package-update-day" "snippets/" "README.org" "../" "ido.last")
-
- ("/home/himanshu/Documents/college project/s-company/" (25394 64312 132560 475000) "./" ".git/" "frontend/" "package-lock.json" ".gitignore" "node_modules/" "README.md" "package.json" "../" "LICENSE" "backend/")
-
- ("/home/himanshu/Documents/college project/" (25391 52750 0 0) "./" "Collegeproject.md" "Project Synopsis.docx" "s-company-old/" "s-company/" "Documents provided by mentor/" "Project Report Week 2.docx" "../" "Project Report Week 1.docx")
-
- ("/home/himanshu/Documents/" (25394 63460 196615 299000) "./" "docs-sy/" "docs-fy/" "My Pictures/" "docs-ty/" "college practicals/" "dsa questions and solutions/" "books/" "college project/" "resume.docx" "notes/" "../" "desktop.ini" "random/" "sapan/" "My Videos/" "BeginBodyweight_CaliUnity.pdf" "important/" "My Music/" "college results/")
-
- ("/home/himanshu/" (25395 59577 810051 635000) ".profile" ".emacs.d/" "./" ".bash_history" ".sudo_as_admin_successful" ".vscode/" ".npm/" "Downloads/" ".pki/" "Desktop/" ".mongodb/" "Music/" ".bash_logout" ".local/" ".gnome/" "Pictures/" "snap/" "Code/" ".mozilla/" ".gnupg/" ".config/" ".viminfo" ".cache/" ".ssh/" "Documents/" "Videos/" ".bashrc" ".tmux.conf" "../" "Templates/" ".bash_aliases" ".gitconfig" ".vimrc" "Public/")
 
  ("c:/Users/himanshu/AppData/Roaming/.emacs.d/" (25394 57684 0 0) "snippets/" "smex-items" "README.org" "places" "network-security.data" "init.el" "ido.last" "eshell/" "elpa/" "config.org" "config.el" "auto-save-list/" ".python-environments/" ".last-package-update-day" ".git/" "../" "./")
 

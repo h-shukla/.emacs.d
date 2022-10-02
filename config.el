@@ -5,8 +5,8 @@
 	auto-package-update-interval 7)
   (auto-package-update-maybe))
 
-(set-frame-font "Cascadia Code 11")
-(load-theme 'deeper-blue t)
+(set-frame-font "Source Code Pro 14")
+(set-face-attribute 'region nil :background "#aaa")
 
 (menu-bar-mode 0)
 (tool-bar-mode 0)
@@ -25,9 +25,8 @@
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
-;; (when window-system (set-frame-size (selected-frame) 80 40))
-(when window-system (global-prettify-symbols-mode t))
-(add-to-list 'default-frame-alist '(fullscreen . maximized))
+(when window-system (set-frame-size (selected-frame) 80 46))
+;; (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (if (eq system-type 'windows-nt)
     (cd "c:/Users/Himanshu/"))
 
@@ -176,8 +175,8 @@
   (diminish 'which-key-mode)
   (diminish 'rainbow-mode))
 
-(global-display-line-numbers-mode 1)
-(add-hook 'dired-mode-hook (lambda() (display-line-numbers-mode 1)))
+(global-display-line-numbers-mode -1)
+(add-hook 'dired-mode-hook (lambda() (display-line-numbers-mode -1)))
 
 (defvar my-term-shell "/bin/bash")
 (defadvice ansi-term (before force-bash)
@@ -190,12 +189,6 @@
 (add-hook 'term-mode-hook (lambda() (display-line-numbers-mode -1)))
 (add-hook 'eshell-mode-hook (lambda() (display-line-numbers-mode -1)))
 (add-hook 'eshell-mode-hook (lambda() (company-mode -1)))
-
-(when window-system
-  (use-package pretty-mode
-    :ensure t
-    :config
-    (global-pretty-mode -1)))
 
 (use-package web-mode
   :ensure t)

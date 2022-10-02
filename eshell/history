@@ -3,3 +3,18 @@ gs
 git status
 git diff
 clear
+python P1Q3.py 
+clear-scrollback 
+python P1Q3.py 
+python P1Q3.py 
+clear-scrollback 
+python test.py 
+python test.py 
+python test.py 
+python test.py 
+python playfaircipher.py 
+python playfaircipher.py 
+python test.py 
+python test.py 
+python test.py 
+python test.py 
