@@ -5,8 +5,9 @@
 	auto-package-update-interval 7)
   (auto-package-update-maybe))
 
-(set-frame-font "Source Code Pro 14")
-(set-face-attribute 'region nil :background "#aaa")
+(set-frame-font "Cascadia Code 11")
+;; (set-face-attribute 'region nil :background "#aaa")
+(load-theme 'modus-operandi t)
 
 (menu-bar-mode 0)
 (tool-bar-mode 0)
@@ -14,6 +15,11 @@
 (setq inhibit-startup-screen t)
 (save-place-mode 1)
 (setq create-lockfiles nil)
+
+;; Change scratch buffer behaviour
+(setq initial-scratch-message "")
+(setq initial-major-mode 'text-mode)
+(add-hook 'text-mode-hook 'turn-on-auto-fill)
 
 (setq make-backup-files nil)
 (setq auto-save-default nil)
@@ -25,7 +31,7 @@
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
-(when window-system (set-frame-size (selected-frame) 80 46))
+(when window-system (set-frame-size (selected-frame) 80 44))
 ;; (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (if (eq system-type 'windows-nt)
     (cd "c:/Users/Himanshu/"))

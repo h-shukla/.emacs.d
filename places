@@ -1,108 +1,57 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/himanshu/Code/reactjs/test/public/"
-  (dired-filename . "/home/himanshu/Code/reactjs/test/public/.."))
- ("/home/himanshu/Code/reactjs/test/"
-  (dired-filename . "/home/himanshu/Code/reactjs/test/src"))
- ("/home/himanshu/Code/reactjs/test/src/index.js" . 13)
- ("/home/himanshu/Code/reactjs/test/src/"
-  (dired-filename . "/home/himanshu/Code/reactjs/test/src/App.js"))
- ("/home/himanshu/.emacs.d/ido.last" . 14123)
- ("/home/himanshu/.emacs.d/config.org" . 1380)
- ("/home/himanshu/Code/reactjs/test/README.md" . 37)
- ("/home/himanshu/Documents/college project/s-company/"
-  (dired-filename . "/home/himanshu/Documents/college project/s-company/README.md"))
- ("/home/himanshu/"
-  (dired-filename . "/home/himanshu/.vimrc"))
- ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_01/"
-  (dired-filename . "/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_01/.."))
- ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/"
-  (dired-filename . "/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_01"))
- ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_02/"
-  (dired-filename . "/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_02/playfaircipher.py"))
- ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_02/playfaircipher.py" . 422)
- ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_03/"
-  (dired-filename . "/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_03/.."))
- ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_04/"
-  (dired-filename . "/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_04/.."))
- ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_06/"
-  (dired-filename . "/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_06/.."))
- ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_05/"
-  (dired-filename . "/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_05/.."))
- ("/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_08/"
-  (dired-filename . "/home/himanshu/Documents/college practicals/sem5-practicals/INS/Practical_08/.."))
- ("/home/himanshu/.emacs.d/init.el" . 1011)
- ("/home/himanshu/Documents/college project/s-company/frontend/"
-  (dired-filename . "/home/himanshu/Documents/college project/s-company/frontend/src"))
- ("/home/himanshu/Documents/college project/s-company/backend/"
-  (dired-filename . "/home/himanshu/Documents/college project/s-company/backend/routes"))
- ("/home/himanshu/Documents/college project/s-company/backend/routes/"
-  (dired-filename . "/home/himanshu/Documents/college project/s-company/backend/routes/productRoutes.js"))
- ("/home/himanshu/Documents/college project/s-company/backend/routes/productRoutes.js" . 813)
- ("/home/himanshu/Documents/college project/s-company/backend/routes/userRoutes.js" . 677)
- ("/home/himanshu/Documents/college project/s-company/backend/routes/orderRoutes.js" . 795)
- ("/home/himanshu/Documents/college project/s-company/backend/utils/"
-  (dired-filename . "/home/himanshu/Documents/college project/s-company/backend/utils/jwtToken.js"))
- ("/home/himanshu/Documents/college project/s-company/frontend/src/styles/"
-  (dired-filename . "/home/himanshu/Documents/college project/s-company/frontend/src/styles/.."))
- ("/home/himanshu/Documents/college project/s-company/backend/config/"
-  (dired-filename . "/home/himanshu/Documents/college project/s-company/backend/config/.."))
- ("/home/himanshu/Documents/college project/s-company/backend/controllers/"
-  (dired-filename . "/home/himanshu/Documents/college project/s-company/backend/controllers/.."))
- ("/home/himanshu/Documents/college project/s-company/backend/middlewares/"
-  (dired-filename . "/home/himanshu/Documents/college project/s-company/backend/middlewares/.."))
- ("/home/himanshu/Documents/college project/s-company/frontend/src/"
-  (dired-filename . "/home/himanshu/Documents/college project/s-company/frontend/src/components"))
- ("/home/himanshu/Documents/college project/s-company/frontend/src/components/"
-  (dired-filename . "/home/himanshu/Documents/college project/s-company/frontend/src/components/AdminPage.js"))
- ("/home/himanshu/Documents/college project/s-company/backend/models/"
-  (dired-filename . "/home/himanshu/Documents/college project/s-company/backend/models/.."))
- ("/home/himanshu/Documents/college project/s-company/backend/utils/jwtToken.js" . 384)
- ("/home/himanshu/Documents/college project/s-company/backend/utils/errorHandler.js" . 234)
- ("/home/himanshu/Documents/college project/s-company/backend/utils/apiFeatures.js" . 1198)
- ("/home/himanshu/Documents/college project/s-company/frontend/src/components/AdminPage.js" . 1011)
- ("/home/himanshu/Documents/college project/s-company/backend/middlewares/catchAsyncErrors.js" . 217)
- ("/home/himanshu/Documents/college project/s-company/backend/controllers/productController.js" . 3512)
- ("/home/himanshu/Documents/college project/s-company/backend/controllers/orderController.js" . 2188)
- ("/home/himanshu/Documents/college project/s-company/backend/config/database.js" . 246)
- ("/home/himanshu/Documents/college project/s-company/backend/app.js" . 183)
- ("/home/himanshu/Documents/college project/s-company/frontend/src/components/Navbar.js" . 68)
- ("/home/himanshu/Documents/college project/s-company/frontend/src/components/UpdateProduct.js" . 846)
- ("/home/himanshu/Documents/college project/s-company/frontend/src/components/Profile.js" . 1884)
- ("/home/himanshu/Documents/college project/s-company/frontend/src/components/Products.js" . 4017)
- ("/home/himanshu/Documents/college project/s-company/frontend/src/components/Orders.js" . 116)
- ("/home/himanshu/Documents/college project/s-company/frontend/src/components/Login.js" . 2296)
- ("/home/himanshu/.emacs.d/"
-  (dired-filename . "/home/himanshu/.emacs.d/auto-save-list"))
- ("/home/himanshu/.emacs.d/elpa/haskell-mode-20220917.1353/haskell-mode-autoloads.el" . 33024)
- ("/home/himanshu/.emacs.d/elpa/company-go-20170825.1643/company-go-autoloads.el" . 496)
- ("/home/himanshu/.emacs.d/elpa/go-mode-20220727.115/go-mode-autoloads.el" . 3527)
- ("/home/himanshu/.emacs.d/elpa/emmet-mode-20210820.1124/emmet-mode-autoloads.el" . 2190)
- ("/home/himanshu/.emacs.d/elpa/markdown-mode-20220829.225/markdown-mode-autoloads.el" . 1689)
- ("/home/himanshu/.emacs.d/elpa/yasnippet-snippets-20220713.1234/yasnippet-snippets-autoloads.el" . 727)
- ("/home/himanshu/.emacs.d/elpa/yasnippet-20200604.246/yasnippet-autoloads.el" . 2345)
- ("/home/himanshu/.emacs.d/elpa/rjsx-mode-20200120.1446/rjsx-mode-autoloads.el" . 1742)
- ("/home/himanshu/.emacs.d/elpa/json-mode-20211011.630/json-mode-autoloads.el" . 2088)
- ("/home/himanshu/.emacs.d/elpa/json-snatcher-20200916.1717/json-snatcher-autoloads.el" . 547)
- ("/home/himanshu/.emacs.d/elpa/js2-mode-20220710.57/js2-mode-autoloads.el" . 3708)
- ("/home/himanshu/.emacs.d/elpa/web-mode-20220820.1935/web-mode-autoloads.el" . 481)
- ("/home/himanshu/.emacs.d/elpa/diminish-20220909.847/diminish-autoloads.el" . 2355)
- ("/home/himanshu/.emacs.d/elpa/pyvenv-20211014.707/pyvenv-autoloads.el" . 3208)
- ("/home/himanshu/.emacs.d/elpa/company-jedi-20200324.25/company-jedi-autoloads.el" . 625)
- ("/home/himanshu/.emacs.d/elpa/jedi-core-20210503.1315/jedi-core-autoloads.el" . 3806)
- ("/home/himanshu/.emacs.d/elpa/epc-20140610.534/epc-autoloads.el" . 572)
- ("/home/himanshu/.emacs.d/elpa/concurrent-20161229.330/concurrent-autoloads.el" . 397)
- ("/home/himanshu/.emacs.d/elpa/ctable-20210128.629/ctable-autoloads.el" . 379)
- ("/home/himanshu/.emacs.d/elpa/python-environment-20150310.853/python-environment-autoloads.el" . 768)
- ("/home/himanshu/.emacs.d/elpa/deferred-20170901.1330/deferred-autoloads.el" . 393)
- ("/home/himanshu/.emacs.d/elpa/company-web-20220115.2146/company-web-autoloads.el" . 1603)
- ("/home/himanshu/.emacs.d/elpa/web-completion-data-20160318.848/web-completion-data-autoloads.el" . 545)
- ("/home/himanshu/.emacs.d/elpa/company-20220825.1044/company-autoloads.el" . 12369)
- ("/home/himanshu/.emacs.d/elpa/rainbow-delimiters-20210515.1254/rainbow-delimiters-autoloads.el" . 1401)
- ("/home/himanshu/.emacs.d/elpa/rainbow-mode-1.0.6/rainbow-mode-autoloads.el" . 1194)
- ("/home/himanshu/.emacs.d/elpa/avy-20220910.1936/avy-autoloads.el" . 8806)
- ("/home/himanshu/.emacs.d/elpa/smex-20151212.2209/smex-autoloads.el" . 586)
- ("/home/himanshu/.emacs.d/elpa/ido-vertical-mode-20210205.436/ido-vertical-mode-autoloads.el" . 1494)
- ("/home/himanshu/.emacs.d/elpa/hungry-delete-20210409.1643/hungry-delete-autoloads.el" . 3787)
- ("/home/himanshu/.emacs.d/elpa/which-key-20220811.1616/which-key-autoloads.el" . 7295)
- ("/home/himanshu/.emacs.d/elpa/org-present-20220806.1847/org-present-autoloads.el" . 484)
- ("/home/himanshu/.emacs.d/elpa/org-bullets-20200317.1740/org-bullets-autoloads.el" . 1061))
+(("c:/Users/himanshu/Code/"
+  (dired-filename . "c:/Users/himanshu/Code/websites"))
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/ido.last" . 6816)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/config.org" . 633)
+ ("c:/Users/himanshu/Code/MERN/"
+  (dired-filename . "c:/Users/himanshu/Code/MERN/.."))
+ ("c:/Users/himanshu/Code/reactjs/"
+  (dired-filename . "c:/Users/himanshu/Code/reactjs/.."))
+ ("c:/Users/himanshu/Code/MERN/Traversy-MERN-redux/"
+  (dired-filename . "c:/Users/himanshu/Code/MERN/Traversy-MERN-redux/.."))
+ ("c:/Users/himanshu/Code/MERN/s-company/"
+  (dired-filename . "c:/Users/himanshu/Code/MERN/s-company/.."))
+ ("c:/Users/himanshu/Documents/college project/s-company/"
+  (dired-filename . "c:/Users/himanshu/Documents/college project/s-company/frontend"))
+ ("c:/Users/himanshu/Documents/college project/s-company/frontend/"
+  (dired-filename . "c:/Users/himanshu/Documents/college project/s-company/frontend/src"))
+ ("c:/Users/himanshu/Documents/college project/s-company/frontend/src/img/"
+  (dired-filename . "c:/Users/himanshu/Documents/college project/s-company/frontend/src/img/.."))
+ ("c:/Users/himanshu/Documents/college project/s-company/frontend/src/"
+  (dired-filename . "c:/Users/himanshu/Documents/college project/s-company/frontend/src/components"))
+ ("c:/Users/himanshu/Documents/college project/s-company/frontend/src/components/"
+  (dired-filename . "c:/Users/himanshu/Documents/college project/s-company/frontend/src/components/Login.js"))
+ ("c:/Users/himanshu/Documents/college project/s-company/frontend/src/components/Login.js" . 620)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/haskell-mode-20220917.1353/haskell-mode-autoloads.el" . 33024)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/company-go-20170825.1643/company-go-autoloads.el" . 496)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/go-mode-20220727.115/go-mode-autoloads.el" . 3527)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/emmet-mode-20210820.1124/emmet-mode-autoloads.el" . 2190)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/markdown-mode-20221022.735/markdown-mode-autoloads.el" . 1689)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/yasnippet-snippets-20220713.1234/yasnippet-snippets-autoloads.el" . 727)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/yasnippet-20200604.246/yasnippet-autoloads.el" . 2345)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/rjsx-mode-20200120.1446/rjsx-mode-autoloads.el" . 1742)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/json-mode-20211011.630/json-mode-autoloads.el" . 2088)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/json-snatcher-20200916.1717/json-snatcher-autoloads.el" . 547)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/js2-mode-20221028.1819/js2-mode-autoloads.el" . 3708)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/web-mode-20221012.800/web-mode-autoloads.el" . 481)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/diminish-20220909.847/diminish-autoloads.el" . 2355)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/pyvenv-20211014.707/pyvenv-autoloads.el" . 3208)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/company-jedi-20200324.25/company-jedi-autoloads.el" . 625)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/jedi-core-20210503.1315/jedi-core-autoloads.el" . 3806)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/epc-20140610.534/epc-autoloads.el" . 572)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/concurrent-20161229.330/concurrent-autoloads.el" . 397)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/ctable-20210128.629/ctable-autoloads.el" . 379)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/python-environment-20150310.853/python-environment-autoloads.el" . 768)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/deferred-20170901.1330/deferred-autoloads.el" . 393)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/company-web-20220115.2146/company-web-autoloads.el" . 1603)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/web-completion-data-20160318.848/web-completion-data-autoloads.el" . 545)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/company-20221007.2145/company-autoloads.el" . 12369)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/rainbow-delimiters-20210515.1254/rainbow-delimiters-autoloads.el" . 1401)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/rainbow-mode-1.0.6/rainbow-mode-autoloads.el" . 1194)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/avy-20220910.1936/avy-autoloads.el" . 8806)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/smex-20151212.2209/smex-autoloads.el" . 586)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/ido-vertical-mode-20210205.436/ido-vertical-mode-autoloads.el" . 1494)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/hungry-delete-20210409.1643/hungry-delete-autoloads.el" . 3787)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/which-key-20220811.1616/which-key-autoloads.el" . 7295)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/org-present-20220806.1847/org-present-autoloads.el" . 484)
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/elpa/org-bullets-20200317.1740/org-bullets-autoloads.el" . 1061))

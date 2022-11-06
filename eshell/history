@@ -18,3 +18,17 @@ python test.py
 python test.py 
 python test.py 
 python test.py 
+git status
+git add .
+git commit -m 'initial commit'
+git status
+clear
+clear-scrollback 
+exi
+exit
+ls
+cd ../..
+ls
+cd components/
+ls
+touch Header/styles.js

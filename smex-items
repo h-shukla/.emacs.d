@@ -1,21 +1,20 @@
 
 ;; ----- smex-history -----
 (
+ whitespace-cleanup
+ replace-string
  eshell
- package-autoremove
- text-mode
- jedi:install-server
- global-linum-mode
- woman
+ load-theme
+ load-file
  cd
+ 5x5
 )
 
 ;; ----- smex-data -----
 (
- (eshell . 10)
- (jedi:install-server . 3)
- (package-autoremove . 2)
- (woman . 1)
- (global-linum-mode . 2)
- (text-mode . 1)
+ (load-file . 1)
+ (load-theme . 2)
+ (eshell . 2)
+ (replace-string . 4)
+ (whitespace-cleanup . 1)
 )

@@ -15,18 +15,23 @@ To edit a file as sudo use sudo::file-name
 * Minor settings
 ** Font and Theme
    #+BEGIN_SRC emacs-lisp
-     (set-frame-font "Monospace 12")
-     (set-face-attribute 'region nil :background "#aaa")
+     (set-frame-font "Monospace 11")
+     (load-theme 'modus-operandi t)
    #+END_SRC
 
 ** Startup tweaks
    #+BEGIN_SRC emacs-lisp
-  (menu-bar-mode 0)
-  (tool-bar-mode 0)
-  (scroll-bar-mode 0)
-  (setq inhibit-startup-screen t)
-  (save-place-mode 1)
-  (setq create-lockfiles nil)
+     (menu-bar-mode 0)
+     (tool-bar-mode 0)
+     (scroll-bar-mode 0)
+     (setq inhibit-startup-screen t)
+     (save-place-mode 1)
+     (setq create-lockfiles nil)
+
+     ;; Change scratch buffer behaviour
+     (setq initial-scratch-message "")
+     (setq initial-major-mode 'text-mode)
+     (add-hook 'text-mode-hook 'turn-on-auto-fill)
    #+END_SRC
 
 ** Disable backups
