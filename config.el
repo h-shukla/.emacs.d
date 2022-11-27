@@ -5,9 +5,8 @@
 	auto-package-update-interval 7)
   (auto-package-update-maybe))
 
-(set-frame-font "Cascadia Code 11")
-;; (set-face-attribute 'region nil :background "#aaa")
-(load-theme 'modus-operandi t)
+(set-frame-font "Monospace 11")
+(load-theme 'modus-vivendi t)
 
 (menu-bar-mode 0)
 (tool-bar-mode 0)

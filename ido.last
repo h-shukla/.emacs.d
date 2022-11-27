@@ -1,0 +1,44 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/himanshu/Code/MERN/s-company/frontend/" . "src/")
+ ("/home/himanshu/Code/MERN/s-company/" . "frontend/")
+ ("/home/himanshu/Code/MERN/" . "s-company/")
+ ("/home/himanshu/Code/" . "MERN/")
+ ("/home/himanshu/" . "Code/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/himanshu/Code/MERN/s-company/frontend/src/"
+ "/home/himanshu/Code/MERN/s-company/backend/"
+ "/home/himanshu/Code/MERN/s-company/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "index.js"
+ "app.js"
+ "server.js"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/himanshu/Code/MERN/s-company/frontend/src/" (25417 41628 0 0) "styles/" "index.js" "img/" "components/" "AppRouter.js" "App.js" "App.css" "../" "./")
+
+ ("/home/himanshu/Code/MERN/s-company/frontend/" (25417 41628 0 0) "src/" "public/" "package.json" "package-lock.json" "../" "./")
+
+ ("/home/himanshu/Code/MERN/s-company/backend/" (25417 41680 0 0) "utils/" "server.js" "routes/" "models/" "middlewares/" "controllers/" "config/" "app.js" "../" "./")
+
+ ("/home/himanshu/Code/MERN/s-company/" (25417 41680 0 0) "README.md" "package.json" "package-lock.json" "LICENSE" "frontend/" "backend/" ".gitignore" ".git/" "../" "./")
+
+ ("/home/himanshu/Code/MERN/" (25446 49372 0 0) "Traversy-MERN-redux/" "s-company/" "../" "./")
+
+ ("/home/himanshu/Code/" (25446 55864 0 0) "websites/" "reactjs/" "python/" "projects/" "nodejs/" "MERN/" "JavaScript/" "java/" "go/" "DSA/" "dotnet/" "c-lang/" "c++/" "android/" "../" "./")
+
+ ("/home/himanshu/" (25475 40153 329211 846000) ".emacs.d/" ".viminfo" ".lesshst" ".bashrc" "scripts/" ".ssh/" ".vim/" ".pki/" ".vscode/" ".tmux.conf" ".gitconfig" ".vimrc" ".npm/" "Code/" ".bash_history" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".mozilla/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
