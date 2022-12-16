@@ -15,8 +15,8 @@ To edit a file as sudo use sudo::file-name
 * Minor settings
 ** Font and Theme
    #+BEGIN_SRC emacs-lisp
-     (set-frame-font "Monospace 11")
-     (load-theme 'modus-vivendi t)
+     (set-frame-font "Cascadia Mono 11")
+     (load-theme 'modus-operandi t)
    #+END_SRC
 
 ** Startup tweaks
@@ -61,7 +61,7 @@ To edit a file as sudo use sudo::file-name
      (when window-system (set-frame-size (selected-frame) 80 44))
      ;; (add-to-list 'default-frame-alist '(fullscreen . maximized))
      (if (eq system-type 'windows-nt)
-	 (cd "c:/Users/Himanshu/"))
+	 (cd "c:/Users/himan/"))
 
    #+END_SRC
 
