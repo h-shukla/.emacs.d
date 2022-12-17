@@ -2,6 +2,9 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/Users/himan/AppData/Roaming/" . ".emacs.d/")
+ ("c:/Users/himan/AppData/" . "Roaming/")
+ ("c:/Users/himan/" . "Downloads/")
  ("/home/himanshu/Code/MERN/s-company/frontend/" . "src/")
  ("/home/himanshu/Code/MERN/s-company/" . "frontend/")
  ("/home/himanshu/Code/MERN/" . "s-company/")
@@ -11,6 +14,8 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/himan/Code/Projects/Bike-Rental-App/server/"
+ "c:/Users/himan/Downloads/"
  "/home/himanshu/Code/MERN/s-company/frontend/src/"
  "/home/himanshu/Code/MERN/s-company/backend/"
  "/home/himanshu/Code/MERN/s-company/"
@@ -19,12 +24,33 @@
 ;; ----- ido-work-file-list -----
 (
  "index.js"
+ "todo.txt"
  "app.js"
  "server.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/himan/Code/Projects/Bike-Rental-App/server/" (25500 56307 0 0) "package.json" "index.js" "../" "./")
+
+ ("c:/Users/himan/Code/Projects/Bike-Rental-App/" (25500 55844 0 0) "server/" "../" "./")
+
+ ("c:/Users/himan/Downloads/" (25500 55722 0 0) "desktop.ini" "../" "./")
+
+ ("c:/Users/himan/Code/Projects/" (25497 44379 0 0) "s-company/" "ImageScraper/" "Comp-Social/" "booksAppInternship/" "AmberWebDev-Portfolio/" "../" "./")
+
+ ("c:/Users/himan/Documents/" (25500 24323 0 0) "My Videos/" "My Pictures/" "My Music/" "../" "./")
+
+ ("c:/Users/himan/AppData/Roaming/.emacs.d/" (25500 53109 0 0) "snippets/" "smex-items" "README.org" "places" "init.el" "ido.last" "elpa/" "eln-cache/" "config.org" "config.el" ".last-package-update-day" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/himan/AppData/Roaming/" (25500 52771 0 0) "Microsoft/" "Code/" "Adobe/" ".emacs.d/" "../" "./")
+
+ ("c:/Users/himan/AppData/" (25500 23842 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+
+ ("c:/Users/himan/" (25500 52860 0 0) "Videos/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "scripts/" "Saved Games/" "Recent/" "PrintHood/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Favorites/" "Downloads/" "Documents/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".vscode/" ".vimrc" ".viminfo" ".ssh/" ".minttyrc" ".gitconfig" ".bash_profile" ".bash_history" ".bashrc" "../" "./")
+
+ ("c:/Program Files/Emacs/" (25500 52908 0 0) "Uninstall.exe" "emacs-28.1/" "../" "./")
+
  ("/home/himanshu/Code/MERN/s-company/frontend/src/" (25417 41628 0 0) "styles/" "index.js" "img/" "components/" "AppRouter.js" "App.js" "App.css" "../" "./")
 
  ("/home/himanshu/Code/MERN/s-company/frontend/" (25417 41628 0 0) "src/" "public/" "package.json" "package-lock.json" "../" "./")
