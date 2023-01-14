@@ -6,7 +6,7 @@
   (auto-package-update-maybe))
 
 (if (eq system-type 'windows-nt)
-    (set-frame-font "Cascadia Mono 11"))
+    (set-frame-font "Consolas 11"))
 (if (eq system-type 'linux)
     (set-frame-font "Monospace 11"))
 
@@ -34,7 +34,7 @@
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
-(when window-system (set-frame-size (selected-frame) 90 40))
+(when window-system (set-frame-size (selected-frame) 100 46))
 ;; (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (if (eq system-type 'windows-nt)
     (cd "c:/Users/himan/"))

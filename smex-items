@@ -1,7 +1,7 @@
 
 ;; ----- smex-history -----
 (
- eshell
+ replace-string
  cd
  5x5
  arp
@@ -12,5 +12,5 @@
 
 ;; ----- smex-data -----
 (
- (eshell . 1)
+ (replace-string . 1)
 )

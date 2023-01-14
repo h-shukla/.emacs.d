@@ -2,68 +2,61 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("c:/Users/himan/AppData/Roaming/" . ".emacs.d/")
- ("c:/Users/himan/AppData/" . "Roaming/")
- ("c:/Users/himan/" . "Downloads/")
- ("/home/himanshu/Code/MERN/s-company/frontend/" . "src/")
- ("/home/himanshu/Code/MERN/s-company/" . "frontend/")
- ("/home/himanshu/Code/MERN/" . "s-company/")
- ("/home/himanshu/Code/" . "MERN/")
- ("/home/himanshu/" . "Code/")
+ ("/home/himanshu/Documents/" . "tcs-prep/")
+ ("/home/himanshu/Code/Projects/Travel-Logger/server/src/" . "Models/")
+ ("/home/himanshu/Code/Projects/Travel-Logger/server/" . "src/")
+ ("/home/himanshu/Code/Projects/Travel-Logger/" . "server/")
+ ("/home/himanshu/" . "Documents/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "c:/Users/himan/Code/Projects/Bike-Rental-App/server/"
- "c:/Users/himan/Downloads/"
- "/home/himanshu/Code/MERN/s-company/frontend/src/"
- "/home/himanshu/Code/MERN/s-company/backend/"
- "/home/himanshu/Code/MERN/s-company/"
+ "/home/himanshu/"
+ "/home/himanshu/Documents/tcs-prep/"
+ "/home/himanshu/Code/Projects/Travel-Logger/server/src/models/"
+ "/home/himanshu/Code/Projects/Travel-Logger/client/src/"
+ "/home/himanshu/Code/Projects/Travel-Logger/"
+ "/home/himanshu/Code/Projects/Travel-Logger/server/"
+ "/home/himanshu/Code/Projects/Travel-Logger/server/src/"
+ "/home/himanshu/Code/Projects/Travel-Logger/server/src/Models/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "syllabus.md"
+ "User.js"
+ "Logs.js"
+ "README.org"
+ "README.md"
+ ".gitignore"
+ ".env"
+ "db.js"
  "index.js"
- "todo.txt"
- "app.js"
- "server.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/himan/Code/Projects/Bike-Rental-App/server/" (25500 56307 0 0) "package.json" "index.js" "../" "./")
+ ("/home/himanshu/Documents/tcs-prep/" (25537 28657 743989 867000) "syllabus.md" "../" "./")
 
- ("c:/Users/himan/Code/Projects/Bike-Rental-App/" (25500 55844 0 0) "server/" "../" "./")
+ ("/home/himanshu/Documents/" (25537 19510 731447 719000) "tcs-prep/" "install mongodb in ubuntu 22.txt" "workout.txt" "Himanshu shukla resume.pdf" "Himanshu shukla resume.docx" "BeginBodyweight_CaliUnity.pdf" "Sem 6 books/" "sapan/" "random/" "notes/" "important/" "dsa questions and solutions/" "docs-ty/" "docs-sy/" "docs-fy/" "college results/" "college project/" "college practicals/" "books/" "../" "./")
 
- ("c:/Users/himan/Downloads/" (25500 55722 0 0) "desktop.ini" "../" "./")
+ ("/home/himanshu/" (25537 28657 746989 817000) ".viminfo" ".bashrc" ".tmux.conf" ".mongodb/" "Postman/" ".Rhistory" "R/" ".subversion/" "Code/" ".gnome/" ".Scilab/" ".var/" ".pki/" ".npm/" ".vim/" "scripts/" ".emacs.d/" ".ssh/" ".gitconfig" ".bash_history" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".mozilla/" "../" "./")
 
- ("c:/Users/himan/Code/Projects/" (25497 44379 0 0) "s-company/" "ImageScraper/" "Comp-Social/" "booksAppInternship/" "AmberWebDev-Portfolio/" "../" "./")
+ ("/home/himanshu/Code/Projects/Travel-Logger/server/src/models/" (25536 6266 25951 353000) "Logs.js" "../" "./")
 
- ("c:/Users/himan/Documents/" (25500 24323 0 0) "My Videos/" "My Pictures/" "My Music/" "../" "./")
+ ("/home/himanshu/Code/Projects/Travel-Logger/server/src/" (25536 6246 435776 91000) "models/" "db.js" "index.js" "../" "./")
 
- ("c:/Users/himan/AppData/Roaming/.emacs.d/" (25500 53109 0 0) "snippets/" "smex-items" "README.org" "places" "init.el" "ido.last" "elpa/" "eln-cache/" "config.org" "config.el" ".last-package-update-day" ".gitignore" ".git/" "../" "./")
+ ("/home/himanshu/Code/Projects/Travel-Logger/client/src/" (25536 87 802689 155000) "index.js" "index.css" "App.js" "App.css" "../" "./")
 
- ("c:/Users/himan/AppData/Roaming/" (25500 52771 0 0) "Microsoft/" "Code/" "Adobe/" ".emacs.d/" "../" "./")
+ ("/home/himanshu/Code/Projects/Travel-Logger/" (25536 35 235830 65000) "README.org" ".git/" "server/" "client/" "../" "./")
 
- ("c:/Users/himan/AppData/" (25500 23842 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+ ("/home/himanshu/Code/Projects/Travel-Logger/server/" (25535 65150 367223 845000) ".gitignore" ".env" "src/" "package-lock.json" "node_modules/" "package.json" "../" "./")
 
- ("c:/Users/himan/" (25500 52860 0 0) "Videos/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "scripts/" "Saved Games/" "Recent/" "PrintHood/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Favorites/" "Downloads/" "Documents/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".vscode/" ".vimrc" ".viminfo" ".ssh/" ".minttyrc" ".gitconfig" ".bash_profile" ".bash_history" ".bashrc" "../" "./")
+ ("/home/himanshu/Code/Projects/Travel-Logger/server/src/api/" (25534 62828 221262 954000) "logs.js" "../" "./")
 
- ("c:/Program Files/Emacs/" (25500 52908 0 0) "Uninstall.exe" "emacs-28.1/" "../" "./")
+ ("/home/himanshu/Code/Projects/Travel-Logger/server/src/Models/" (25534 62828 221262 954000) "LogEntry.js" "../" "./")
 
- ("/home/himanshu/Code/MERN/s-company/frontend/src/" (25417 41628 0 0) "styles/" "index.js" "img/" "components/" "AppRouter.js" "App.js" "App.css" "../" "./")
-
- ("/home/himanshu/Code/MERN/s-company/frontend/" (25417 41628 0 0) "src/" "public/" "package.json" "package-lock.json" "../" "./")
-
- ("/home/himanshu/Code/MERN/s-company/backend/" (25417 41680 0 0) "utils/" "server.js" "routes/" "models/" "middlewares/" "controllers/" "config/" "app.js" "../" "./")
-
- ("/home/himanshu/Code/MERN/s-company/" (25417 41680 0 0) "README.md" "package.json" "package-lock.json" "LICENSE" "frontend/" "backend/" ".gitignore" ".git/" "../" "./")
-
- ("/home/himanshu/Code/MERN/" (25446 49372 0 0) "Traversy-MERN-redux/" "s-company/" "../" "./")
-
- ("/home/himanshu/Code/" (25446 55864 0 0) "websites/" "reactjs/" "python/" "projects/" "nodejs/" "MERN/" "JavaScript/" "java/" "go/" "DSA/" "dotnet/" "c-lang/" "c++/" "android/" "../" "./")
-
- ("/home/himanshu/" (25475 40153 329211 846000) ".emacs.d/" ".viminfo" ".lesshst" ".bashrc" "scripts/" ".ssh/" ".vim/" ".pki/" ".vscode/" ".tmux.conf" ".gitconfig" ".vimrc" ".npm/" "Code/" ".bash_history" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".mozilla/" "../" "./")
+ ("/home/himanshu/.local/" (25534 52487 656153 485000) "state/" "share/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
