@@ -2,6 +2,28 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_web/Eunoia-UM/Views/" . "Financial/")
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_web/Eunoia-UM/" . "Models/")
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_web/" . "Eunoia-UM/")
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_api/Eunoia-UM_API/" . "Model/")
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_api/" . "Eunoia-UM_API/")
+ ("c:/Users/himanshu/Code/Work/Copy/" . "Logistics_web/")
+ ("c:/Users/himanshu/Code/Work/" . "Copy/")
+ ("c:/Users/himanshu/Code/Projects/College/Travel-Logger/client/" . "src/")
+ ("c:/Users/himanshu/Code/Projects/College/Travel-Logger/" . "client/")
+ ("c:/Users/himanshu/Code/Projects/College/" . "Travel-Logger/")
+ ("c:/Users/himanshu/Code/work/Logistics_web - Copy/Eunoia-UM/Views/" . "Home/")
+ ("c:/Users/himanshu/Code/work/Logistics_web - Copy/Eunoia-UM/" . "Views/")
+ ("c:/Users/himanshu/Code/work/Logistics_web - Copy/" . "Eunoia-UM/")
+ ("c:/Users/himanshu/Code/work/" . "Logistics_web - Copy/")
+ ("c:/Users/himanshu/Code/Projects/Web-Apps/" . "E-Commerce/")
+ ("c:/Users/himanshu/Code/Projects/" . "College/")
+ ("c:/Users/himanshu/Code/" . "Work/")
+ ("c:/Users/himanshu/Code/Projects/Web-Apps/E-Commerce/client/" . "src/")
+ ("c:/Users/himanshu/Code/Projects/Web-Apps/E-Commerce/" . "server/")
+ ("c:/Users/himanshu/Documents/Sem 6 resources/" . "CF/")
+ ("c:/Users/himanshu/Documents/" . "Sem 6 resources/")
+ ("c:/Users/himanshu/" . "Code/")
  ("/home/himanshu/Documents/" . "tcs-prep/")
  ("/home/himanshu/Code/Projects/Travel-Logger/server/src/" . "Models/")
  ("/home/himanshu/Code/Projects/Travel-Logger/server/" . "src/")
@@ -11,6 +33,26 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/himanshu/Code/Work/Copy/Logistics_web/Eunoia-UM/Models/"
+ "c:/Users/himanshu/Code/Work/Copy/Logistics_web/Eunoia-UM/Controllers/"
+ "c:/Users/himanshu/Code/Work/Copy/Logistics_web/Eunoia-UM/"
+ "c:/Users/himanshu/Code/Work/Copy/"
+ "c:/Users/himanshu/Code/Work/Copy/Logistics_web/Eunoia-UM/Views/Financial/"
+ "c:/Users/himanshu/Code/Work/Copy/Logistics_api/Eunoia-UM_API/Model/"
+ "c:/Users/himanshu/Code/Work/Copy/Logistics_api/Eunoia-UM_API/Controllers/"
+ "c:/Users/himanshu/"
+ "c:/Users/himanshu/Code/Work/Copy/Logistics_api/Eunoia-UM_API/DB Script/"
+ "c:/Users/himanshu/Code/Work/Copy/Logistics_api/Eunoia-UM_API/"
+ "c:/Users/himanshu/AppData/Roaming/.emacs.d/"
+ "c:/Users/himanshu/Code/Projects/College/Travel-Logger/client/src/"
+ "c:/Users/himanshu/Code/Projects/College/Travel-Logger/"
+ "c:/Users/himanshu/Code/work/Logistics_web - Copy/Eunoia-UM/Views/Home/"
+ "c:/Users/himanshu/Documents/"
+ "c:/Users/himanshu/Code/Projects/Web-Apps/E-Commerce/server/"
+ "c:/Users/himanshu/Code/Projects/Web-Apps/E-Commerce/client/"
+ "c:/Users/himanshu/Code/Projects/Web-Apps/E-Commerce/"
+ "c:/Users/himanshu/Code/Projects/Web-Apps/E-Commerce/client/src/"
+ "c:/Users/himanshu/Documents/Sem 6 resources/CF/"
  "/home/himanshu/"
  "/home/himanshu/Documents/tcs-prep/"
  "/home/himanshu/Code/Projects/Travel-Logger/server/src/models/"
@@ -23,19 +65,93 @@
 
 ;; ----- ido-work-file-list -----
 (
- "syllabus.md"
- "User.js"
- "Logs.js"
- "README.org"
- "README.md"
- ".gitignore"
- ".env"
- "db.js"
- "index.js"
+ "UserMaster.cs"
+ "FinancialYear.cs"
+ "DieselMaster.cs"
+ "FinancialYearController.cs"
+ "diesel master.jpg"
+ "FinancialYearConfiguration.cshtml"
+ "FinancialYearModel.cs"
+ "DbScript_01032023.txt"
+ "Program.cs"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_web/Eunoia-UM/Models/" (25710 30568 0 0) "VisitorMaster.cs" "VehicleMaster.cs" "UserMaster.cs" "Roll.cs" "InventoryOutwardWRModel.cs" "FinancialYearConfigureModel.cs" "FinancialYear.cs" "FinancialMaster.cs" "EnumMaster.cs" "DocMst.cs" "DieselMaster.cs" "CompanyMasterModel.cs" "CommonModals/" "CardMst.cs" "../" "./")
+
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_web/Eunoia-UM/Controllers/" (25707 21020 0 0) "VisitorController.cs" "VehicleController.cs" "UserController.cs" "TrailerController.cs" "SupplierController.cs" "RoleController.cs" "OrderController.cs" "MarketController.cs" "InventoryOutwardWRController.cs" "HomeController.cs" "FinancialYearController.cs" "FinancialController.cs" "EmailController.cs" "DriverController.cs" "DocumentController.cs" "DieselMasterController.cs" "DefaultController.cs" "DashboardController.cs" "CustomerController.cs" "ConsignorController.cs" "ConsigneeController.cs" "CompanyController.cs" "CommonController.cs" "CardController.cs" "BrokerController.cs" "BranchController.cs" "AuthController.cs" "AgentController.cs" "AdminController.cs" "../" "./")
+
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_web/Eunoia-UM/Views/Financial/" (25692 47007 0 0) "FinancialYearConfiguration.cshtml" "../" "./")
+
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_web/Eunoia-UM/Views/" (25704 46464 0 0) "_ViewStart.cshtml" "Web.config" "Visitor/" "Vehicle/" "User/" "Trailer/" "Supplier/" "Shared/" "Role/" "Order/" "Market/" "InventoryOutwardWR/" "Home/" "FinancialYear/" "Financial/" "Email/" "Driver/" "Document/" "DieselMaster/" "Dashboard/" "Customer/" "Consignor/" "Consignee/" "Company/" "Card/" "Broker/" "Branch/" "Auth/" "Agent/" "Admin/" "../" "./")
+
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_web/Eunoia-UM/Views/DieselMaster/" (25710 29313 0 0) "Index.cshtml" "../" "./")
+
+ ("c:/Users/himanshu/Code/Work/Copy/" (25705 57305 0 0) "Logistics_web/" "Logistics_api/" "diesel master.jpg" "../" "./")
+
+ ("c:/Users/himanshu/" (25707 18001 0 0) "Videos/" "Templates/" "Start Menu/" "source/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Postman/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{b124a710-e1c7-11ed-b7eb-d9a2748ecbe2}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{b124a710-e1c7-11ed-b7eb-d9a2748ecbe2}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{b124a710-e1c7-11ed-b7eb-d9a2748ecbe2}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Code/" "Application Data/" "AppData/" "3D Objects/" ".vscode/" ".VirtualBox/" ".viminfo" ".vim/" ".templateengine/" ".ssh/" ".nuget/" ".minttyrc" ".librarymanager/" ".lesshst" ".gitconfig" ".git-for-windows-updater" ".dotnet/" ".bash_history" ".android/" "../" "./")
+
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_web/Eunoia-UM/" (25692 47007 0 0) "Web.Release.config" "Web.Debug.config" "Web.config" "Views/" "Scripts/" "Properties/" "packages.config" "obj/" "Models/" "Helpers/" "Global.asax.cs" "Global.asax" "fonts/" "favicon.ico" "Eunoia-UM.csproj.user" "Eunoia-UM.csproj" "css/" "Controllers/" "Content/" "bin/" "App_Start/" "../" "./")
+
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_web/" (25692 47007 0 0) "packages/" "Eunoia-UM.sln" "Eunoia-UM/" ".vs/" ".gitignore" ".gitattributes" ".git/" "../" "./")
+
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_api/Eunoia-UM_API/Model/" (25692 46972 0 0) "VisitorMastercs.cs" "VehicleMaster.cs" "UserMaster.cs" "Role.cs" "FinancialYearModel.cs" "FinancialYearConfigureModel.cs" "DocMst.cs" "CustomList.cs" "CompanyMaster.cs" "CardMst.cs" "../" "./")
+
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_api/Eunoia-UM_API/Controllers/" (25692 46972 0 0) "WeatherForecastController.cs" "VisitorController.cs" "VehicleMasterController.cs" "UserController.cs" "RoleMasterController.cs" "FinancialYearController.cs" "FinancialController.cs" "DocumentController.cs" "CompanyController.cs" "CommonController.cs" "CardController.cs" "AdminController.cs" "../" "./")
+
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_api/Eunoia-UM_API/DB Script/" (25692 46972 0 0) "userMgt.txt" "kartikCrdDoc.txt" "DbScript_01032023.txt" "../" "./")
+
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_api/Eunoia-UM_API/" (25692 46973 0 0) "WeatherForecast.cs" "Properties/" "Program.cs" "obj/" "Model/" "Helper/" "Eunoia-UM_API.csproj.user" "Eunoia-UM_API.csproj" "DB Script/" "Controllers/" "bin/" "appsettings.json" "appsettings.Development.json" "../" "./")
+
+ ("c:/Users/himanshu/Code/Work/Copy/Logistics_api/" (25692 46972 0 0) "Eunoia-UM_API.sln" "Eunoia-UM_API/" ".vs/" ".gitignore" ".gitattributes" ".git/" "../" "./")
+
+ ("c:/Users/himanshu/Code/Work/" (25692 62354 0 0) "Logistics_web/" "Logistics_api/" "Copy/" "../" "./")
+
+ ("c:/Users/himanshu/AppData/Roaming/.emacs.d/" (25694 41981 0 0) "snippets/" "smex-items" "README.org" "places" "init.el" "ido.last" "eshell/" "elpa/" "config.org" "config.el" "auto-save-list/" ".last-package-update-day" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/himanshu/Code/Projects/College/Travel-Logger/client/src/" (25694 42021 0 0) "styles/" "index.js" "index.css" "images/" "components/" "App.js" "App.css" "../" "./")
+
+ ("c:/Users/himanshu/Code/Projects/College/Travel-Logger/client/" (25694 42021 0 0) "src/" "public/" "package.json" "package-lock.json" "node_modules/" ".gitignore" "../" "./")
+
+ ("c:/Users/himanshu/Code/Projects/College/Travel-Logger/" (25694 42021 0 0) "server/" "README.md" "client/" ".git/" "../" "./")
+
+ ("c:/Users/himanshu/Code/Projects/College/" (25648 46733 0 0) "Travel-Logger/" "S-Company/" "../" "./")
+
+ ("c:/Users/himanshu/Code/" (25679 56469 0 0) "Work/" "TypeScript/" "React.js/" "R - college/" "Python/" "Projects/" "Node.js/" "JavaScript/" "Java/" "Golang/" "C++/" "C/" "Basic web sites/" "Android with Java/" ".Net/" "../" "./")
+
+ ("c:/Users/himanshu/Code/work/Logistics_web - Copy/Eunoia-UM/Views/Home/" (25679 43773 0 0) "Index.cshtml" "Contact.cshtml" "About.cshtml" "../" "./")
+
+ ("c:/Users/himanshu/Code/work/Logistics_web - Copy/Eunoia-UM/Views/Market/" (25679 43773 0 0) "vehicleDetails.cshtml" "Index.cshtml" "brokerDetails.cshtml" "AddNew.cshtml" "../" "./")
+
+ ("c:/Users/himanshu/Code/work/Logistics_web - Copy/Eunoia-UM/Views/" (25679 43773 0 0) "_ViewStart.cshtml" "Web.config" "Visitor/" "Vehicle/" "User/" "Trailer/" "Supplier/" "Shared/" "Role/" "Order/" "Market/" "Home/" "Financial/" "Email/" "Driver/" "Document/" "Dashboard/" "Customer/" "Consignor/" "Consignee/" "Company/" "Card/" "Broker/" "Branch/" "Auth/" "Agent/" "Admin/" "../" "./")
+
+ ("c:/Users/himanshu/Code/work/Logistics_web - Copy/Eunoia-UM/" (25679 43773 0 0) "Web.Release.config" "Web.Debug.config" "Web.config" "Views/" "Scripts/" "Properties/" "packages.config" "obj/" "Models/" "Helpers/" "Global.asax.cs" "Global.asax" "fonts/" "favicon.ico" "Eunoia-UM.csproj.user" "Eunoia-UM.csproj" "css/" "Controllers/" "Content/" "bin/" "App_Start/" "../" "./")
+
+ ("c:/Users/himanshu/Code/work/Logistics_web - Copy/" (25679 44474 0 0) "packages/" "Eunoia-UM.sln" "Eunoia-UM/" ".vs/" ".gitignore" ".gitattributes" "../" "./")
+
+ ("c:/Users/himanshu/Code/work/" (25679 43911 0 0) "Logistics_web - Copy/" "Logistics_web/" "Logistics_api/" "../" "./")
+
+ ("c:/Users/himanshu/Documents/" (25670 33860 0 0) "Sem 6 resources/" "sapan/" "random/" "notes/" "My Videos/" "My Pictures/" "My Music/" "important/" "Himanshu shukla resume.pdf" "Himanshu shukla resume.docx" "docs-ty/" "docs-sy/" "docs-fy/" "desktop.ini" "Custom Office Templates/" "college results/" "college project/" "college practicals/" "books/" "BeginBodyweight_CaliUnity.pdf" ".Rhistory" "../" "./")
+
+ ("c:/Users/himanshu/Code/Projects/Web-Apps/" (25648 46811 0 0) "Video-Streaming-Platform/" "Travel-Booking/" "Social-Media/" "Productivity/" "Messaging/" "E-Commerce/" "../" "./")
+
+ ("c:/Users/himanshu/Code/Projects/" (25648 46745 0 0) "Web-Apps/" "Portfolios/" "College/" "Basic/" "../" "./")
+
+ ("c:/Users/himanshu/Documents/Sem 6 resources/CF/" (25662 24126 0 0) "QnA.pdf" "QnA.docx" "Guide to Computer Forensics and Investigations 6th Edition ( PDFDrive ).pdf" "CF-Standard-Procedure.pdf" "CF-Sample-Questions.pdf" "CF-Sample-Paper-2.pdf" "CF-Sample-Paper-1.pdf" "CF-Mobile-Forensics.pdf" "CF-Internet-Forensics.pdf" "CF-Forensic-Tools.pdf" "CF-Computer-Forensics.pdf" "../" "./")
+
+ ("c:/Program Files/Emacs/" (25659 40519 0 0) "Uninstall.exe" "emacs-28.2/" "../" "./")
+
+ ("c:/Users/himanshu/Code/Projects/Web-Apps/E-Commerce/client/src/" (25648 46874 0 0) "main.jsx" "index.css" "assets/" "App.jsx" "App.css" "../" "./")
+
+ ("c:/Users/himanshu/Code/Projects/Web-Apps/E-Commerce/client/" (25648 48402 0 0) "vite.config.js" "TODO.md" "src/" "public/" "package.json" "package-lock.json" "node_modules/" "index.html" ".gitignore" "../" "./")
+
+ ("c:/Users/himanshu/Code/Projects/Web-Apps/E-Commerce/server/" (25648 47907 0 0) "TODO.md" "package.json" "package-lock.json" "node_modules/" "index.js" ".gitignore" "../" "./")
+
+ ("c:/Users/himanshu/Code/Projects/Web-Apps/E-Commerce/" (25648 46892 0 0) "server/" "README.md" "LICENSE" "client/" ".git/" "../" "./")
+
+ ("c:/Users/himanshu/Documents/Sem 6 resources/" (25651 20021 0 0) "WSN/" "EH/" "DS Book Report Project/" "DS/" "DIP/" "CF/" "BSC CS sem 6th Time table.pdf" "../" "./")
+
  ("/home/himanshu/Documents/tcs-prep/" (25537 28657 743989 867000) "syllabus.md" "../" "./")
 
  ("/home/himanshu/Documents/" (25537 19510 731447 719000) "tcs-prep/" "install mongodb in ubuntu 22.txt" "workout.txt" "Himanshu shukla resume.pdf" "Himanshu shukla resume.docx" "BeginBodyweight_CaliUnity.pdf" "Sem 6 books/" "sapan/" "random/" "notes/" "important/" "dsa questions and solutions/" "docs-ty/" "docs-sy/" "docs-fy/" "college results/" "college project/" "college practicals/" "books/" "../" "./")

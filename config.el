@@ -6,11 +6,14 @@
   (auto-package-update-maybe))
 
 (if (eq system-type 'windows-nt)
-    (set-frame-font "Consolas 11"))
+    (set-frame-font "Terminus 14"))
 (if (eq system-type 'linux)
     (set-frame-font "Monospace 11"))
 
-(load-theme 'modus-vivendi t)
+(use-package zenburn-theme
+  :ensure t)
+
+(load-theme 'zenburn t)
 
 (menu-bar-mode 0)
 (tool-bar-mode 0)
@@ -34,10 +37,10 @@
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
-(when window-system (set-frame-size (selected-frame) 100 46))
+(when window-system (set-frame-size (selected-frame) 90 54))
 ;; (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (if (eq system-type 'windows-nt)
-    (cd "c:/Users/himan/"))
+    (cd "c:/Users/himanshu/"))
 
 (column-number-mode 1)
 (delete-selection-mode 1)
@@ -250,4 +253,7 @@
   :ensure t)
 
 (use-package haskell-mode
+  :ensure t)
+
+(use-package csharp-mode
   :ensure t)

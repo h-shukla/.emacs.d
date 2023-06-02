@@ -1,16 +1,23 @@
 
 ;; ----- smex-history -----
 (
- replace-string
- cd
- 5x5
- arp
- dbx
- dig
- erc
+ js-mode
+ html-mode
+ package-list-packages
+ eshell
+ org-latex-export-to-pdf
+ indent-region
+ toggle-word-wrap
 )
 
 ;; ----- smex-data -----
 (
  (replace-string . 1)
+ (toggle-word-wrap . 2)
+ (indent-region . 1)
+ (org-latex-export-to-pdf . 1)
+ (eshell . 2)
+ (html-mode . 5)
+ (package-list-packages . 1)
+ (js-mode . 4)
 )

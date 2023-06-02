@@ -4,3 +4,7 @@ ls
 cd server/
 ls
 npm i express mongoose cors
+ls
+git pull
+git diff
+git status
